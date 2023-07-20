@@ -24,7 +24,7 @@
 }
 
 .header .headerWrapper {
-  margin-left: 60px;
+  margin-left: 10px;
 }
 
 .header .headerWrapper h5 {
@@ -39,7 +39,7 @@
   color: #fff;
   font-weight: 900;
   font-family: "Raleway", sans-serif;
-  font-size: 55px;
+  font-size: 35px;
   margin: 8px 0;
 }
 
@@ -58,7 +58,7 @@
   50% {
     color: #f66060;
     text-shadow: 0 0 5px #f66060;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
   100% {
     color: #ff351a;
@@ -68,7 +68,7 @@
 }
 
 .header .headerWrapper p {
-  width: 60%;
+  width: 90%;
   color: #ffd166;
   padding-bottom: 20px;
 }
@@ -76,13 +76,15 @@
 .button {
   position: relative;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 8px 25px;
   font-size: 16px;
   color: #fff;
-  background-color: #ff0000; /* Starting color */
-  transition: background-color 0.5s ease;
-  z-index: 1;
+  background-color: #ff0000;
+  transition: all 0.5s ease-out;
+
   overflow: hidden;
+  border-radius: 15px;
+  text-decoration: none;
 }
 
 .button::before {
@@ -92,10 +94,9 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: #00ff00; /* Ending color */
+  background-color: #00ff00;
   transform: translateX(-100%);
-  transition: transform 0.5s ease;
-  z-index: -1; /* Move the pseudo-element below the button content */
+  transition: all 0.5s ease-out;
 }
 
 .button:hover::before {
@@ -103,4 +104,27 @@
 }
 
 @media only screen and (min-width: 46.875em) {
+  .header .headerWrapper {
+    margin-left: 60px;
+  }
+
+  .header .headerWrapper h2 {
+    font-size: 55px;
+    margin: 8px 0;
+  }
+
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  .header .headerWrapper p {
+    width: 60%;
+  }
 }

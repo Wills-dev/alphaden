@@ -20,7 +20,13 @@ const Home = () => {
             {/* <Link href="/about-us" alt="About alphaden">
               Learn more
             </Link> */}
-            <button className={styles.button}>Hover Me</button>
+            <Link
+              className={styles.button}
+              href="/about-us"
+              alt="About alphaden"
+            >
+              Learn more
+            </Link>
           </div>
         </div>
       </header>
