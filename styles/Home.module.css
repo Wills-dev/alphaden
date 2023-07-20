@@ -1,0 +1,106 @@
+.main-ctn {
+  background-attachment: fixed;
+}
+
+.header {
+  height: 70vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(246, 144, 144, 0.5)
+    ),
+    url("/assets/images/heroImg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.header .headerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.header .headerWrapper {
+  margin-left: 60px;
+}
+
+.header .headerWrapper h5 {
+  color: #fff;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.header .headerWrapper h2 {
+  color: #fff;
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-size: 55px;
+  margin: 8px 0;
+}
+
+.header .headerWrapper h2 span {
+  position: relative;
+  display: inline-block;
+  animation: floatAnimation 3s infinite;
+}
+
+@keyframes floatAnimation {
+  0% {
+    color: #ff351a;
+    text-shadow: 0 0 5px #ff351a;
+    transform: translateY(0);
+  }
+  50% {
+    color: #f66060;
+    text-shadow: 0 0 5px #f66060;
+    transform: translateY(-10px);
+  }
+  100% {
+    color: #ff351a;
+    text-shadow: 0 0 5px #ff351a;
+    transform: translateY(0);
+  }
+}
+
+.header .headerWrapper p {
+  width: 60%;
+  color: #ffd166;
+  padding-bottom: 20px;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff0000; /* Starting color */
+  transition: background-color 0.5s ease;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #00ff00; /* Ending color */
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  z-index: -1; /* Move the pseudo-element below the button content */
+}
+
+.button:hover::before {
+  transform: translateX(0);
+}
+
+@media only screen and (min-width: 46.875em) {
+}
