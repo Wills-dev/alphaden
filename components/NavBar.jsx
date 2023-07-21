@@ -126,7 +126,7 @@ const NavBar = () => {
             </p>
             <ul className="group-ctn">
               <li>
-                <Link href="alphadentechnology.com"> Alphaden Technology</Link>
+                <Link href="alphadentechnology.com"> Alphaden Tech</Link>
               </li>
               <li>
                 <Link href="alphadentechnology.com">Alphaden Gas</Link>

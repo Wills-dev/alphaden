@@ -1,7 +1,9 @@
 @font-face {
   font-family: "Open Sans", sans-serif;
   font-family: "Raleway", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Mulish", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish&family=Open+Sans&family=Raleway&display=swap");
 }
 
 html {
