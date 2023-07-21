@@ -1,22 +1,49 @@
 "use client";
 
+import { useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import CountUp from "react-countup";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="main-ctn">
       <header className={styles.header}>
         <div className={styles.headerWrapper}>
           <div>
-            <h5>WE PROVIDE</h5>
-            <h2>
+            <h5
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-offset="300"
+            >
+              WE PROVIDE
+            </h5>
+            <h2
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            >
               RELIABLE <span>SOLUTIONS</span>
             </h2>
-            <h2>FOR ALL SEGMENTS</h2>
-            <p>
+            <h2
+              data-aos="fade-up"
+              data-aos-duration="2500"
+              data-aos-offset="300"
+            >
+              FOR ALL SEGMENTS
+            </h2>
+            <p
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-offset="300"
+            >
               We strive to make your day a better williow for the grace to abide
               in the glory of his mercies and togetherness of the living who
               cherish what the do and offer.
@@ -54,8 +81,18 @@ const Home = () => {
                   />
                 </svg>
               </div>
-              <h3>Mission Statement</h3>
-              <p>
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-offset="300"
+              >
+                Mission Statement
+              </h3>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-offset="300"
+              >
                 Constantly adopting efficiency dynamics in empowering people to
                 deliver excellence with innovation in the pursuit of perfection.
               </p>
@@ -79,8 +116,18 @@ const Home = () => {
                   />
                 </svg>
               </div>
-              <h3>Our Vision</h3>
-              <p>
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-offset="300"
+              >
+                Our Vision
+              </h3>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-offset="300"
+              >
                 To be the dominant EPCI service provider from Africa, delivering
                 capital projects globally.
               </p>
@@ -104,8 +151,18 @@ const Home = () => {
                   />
                 </svg>
               </div>
-              <h3>Core Values</h3>
-              <ul>
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-offset="300"
+              >
+                Core Values
+              </h3>
+              <ul
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-offset="300"
+              >
                 <li>P-eople First</li>
                 <li>I-ntegrity</li>
                 <li>I-nnovation</li>
@@ -131,8 +188,18 @@ const Home = () => {
                   />
                 </svg>
               </div>
-              <h3>Strategy</h3>
-              <p>
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-offset="300"
+              >
+                Strategy
+              </h3>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                data-aos-offset="300"
+              >
                 Our Strategy seeks to maintain us as one of the global leaders
                 in the oil and gas industry with a focus….
               </p>
@@ -143,7 +210,13 @@ const Home = () => {
       <section className="container">
         <div className={styles.aboutUs}>
           <div className={styles.aboutUsContent}>
-            <h4>WHAT WE DO</h4>
+            <h4
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-offset="300"
+            >
+              WHAT WE DO
+            </h4>
             <p>
               The<span> ‘ALPHA’S DEN’ </span>is a hub of professional and well
               experienced Alpha’s, championing their fields while collectively
@@ -191,7 +264,13 @@ const Home = () => {
                     />
                   </div>
 
-                  <h5>Alphaden Electricity and Power</h5>
+                  <h5
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="300"
+                  >
+                    Alphaden Electricity and Power
+                  </h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
@@ -211,7 +290,13 @@ const Home = () => {
                     />
                   </div>
 
-                  <h5>Alphaden Energy</h5>
+                  <h5
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="300"
+                  >
+                    Alphaden Energy
+                  </h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
@@ -232,7 +317,13 @@ const Home = () => {
                     />
                   </div>
 
-                  <h5>Alphaden Green Energy</h5>
+                  <h5
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="300"
+                  >
+                    Alphaden Green Energy
+                  </h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
@@ -252,7 +343,13 @@ const Home = () => {
                     />
                   </div>
 
-                  <h5>Alphaden Gas</h5>
+                  <h5
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="300"
+                  >
+                    Alphaden Gas
+                  </h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
@@ -272,7 +369,13 @@ const Home = () => {
                     />
                   </div>
 
-                  <h5>Alphaden Technology</h5>
+                  <h5
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="300"
+                  >
+                    Alphaden Technology
+                  </h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
