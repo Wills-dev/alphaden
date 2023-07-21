@@ -3,7 +3,7 @@
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import CountNumber from "./../components/CountNumber";
+import CountUp from "react-countup";
 
 const Home = () => {
   return (
@@ -360,25 +360,45 @@ const Home = () => {
             <div className="row">
               <div className="col-lg-3 col-md-4 col-sm-6 col-12 my-2">
                 <h4>
-                  <CountNumber targetCount={184} duration={2000} />
+                  <CountUp
+                    end={100}
+                    start={0}
+                    duration={4}
+                    enableScrollSpy={true}
+                  />
                 </h4>
                 <p>Projects completed</p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 col-12 my-2">
                 <h4>
-                  <CountNumber targetCount={574} duration={2000} />
+                  <CountUp
+                    end={300}
+                    start={0}
+                    duration={4}
+                    enableScrollSpy={true}
+                  />
                 </h4>
                 <p>Happy clients</p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 col-12 my-2">
                 <h4>
-                  <CountNumber targetCount={154} duration={2000} />
+                  <CountUp
+                    end={160}
+                    start={0}
+                    duration={4}
+                    enableScrollSpy={true}
+                  />
                 </h4>
                 <p>Task completed</p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-6 col-12 my-2">
                 <h4>
-                  <CountNumber targetCount={184} duration={2000} />
+                  <CountUp
+                    end={200}
+                    start={0}
+                    duration={4}
+                    enableScrollSpy={true}
+                  />
                 </h4>
                 <p>Token</p>
               </div>
@@ -432,6 +452,79 @@ const Home = () => {
               <div className={styles.partner}>
                 <Image src="/assets/images/logo_8.png" width={50} height={60} />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="container">
+        <div className={styles.titleCtn2}>
+          <p>HAVE QUESTION?</p>
+          <h1>CONTACT US</h1>
+        </div>
+        <div className={styles.contactWrapperForm}>
+          <div className="row">
+            <div className="col-md-5 col-sm-4 col-12">
+              <div className={styles.addressCtn}>
+                <div>
+                  <h5>Address:</h5>
+                  <p>184 Main Collins Street</p>
+                </div>
+                <div>
+                  <h5>Phone:</h5>
+                  <p>(226) 446 9371</p>
+                </div>
+                <div>
+                  <h5>Email:</h5>
+                  <p>confer@gmail.com</p>
+                </div>
+                <div>
+                  <h5>Website:</h5>
+                  <p>www.confer.com</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-7 col-sm-8 col-12">
+              <form className={styles.contactFormCtn}>
+                <div className="row">
+                  <div className="col-md-6 col-12">
+                    <input type="text" placeholder="First Name" />
+                  </div>
+                  <div className="col-md-6 col-12">
+                    <input type="text" placeholder="Last Name" />
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-6 col-12">
+                    <input type="email" placeholder="E-Mail" />
+                  </div>
+                  <div className="col-md-6 col-12">
+                    <input type="number" placeholder="Your Number" />
+                  </div>
+                </div>
+                <div className="row">
+                  <div className=" col-12">
+                    <textarea type="text" placeholder="Your Message" rows={2} />
+                  </div>
+                </div>
+
+                <button type="submit">
+                  SEND MESSAGE{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </button>
+              </form>
             </div>
           </div>
         </div>

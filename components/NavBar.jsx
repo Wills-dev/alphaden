@@ -5,17 +5,20 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import useFixedNavbar from "@hooks/useFixedNavbar";
 
 const NavBar = () => {
   const pathname = usePathname();
   const [openNav, setOpenNav] = useState(true);
   const [openSub, setOpenSub] = useState(true);
 
+  const isFixed = useFixedNavbar(window.innerHeight * 0.06);
+
+  console.log("isFixed", isFixed);
+
   const handleClick = (event) => {
     setOpenSub((current) => !current);
-    console.log("object");
   };
-  console.log(openSub);
 
   const navLinks = [
     {
@@ -33,8 +36,8 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="nav-bar-ctn">
-      <div className="nav-bar-up">
+    <div className={`nav-bar-ctn ${isFixed ? "fixedPosition" : ""}`}>
+      <div className={`nav-bar-up ${isFixed ? "hideNav" : ""}`}>
         <ul className="contact-activity-ctn">
           <li>+(123) 1234-567-8901</li>
           <li> info@domain.com</li>

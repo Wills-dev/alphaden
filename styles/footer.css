@@ -1,0 +1,78 @@
+footer {
+  background-color: #ff351a;
+  padding: 80px 0 30px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.footerWrap {
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+
+.footerCtn {
+  margin: 0 0 50px;
+}
+
+.footerCtn h4 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.footerCtn p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  display: inline-block;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: none;
+  font-weight: 500;
+  color: #f0f0f0;
+  font-family: "Mulish", sans-serif;
+}
+
+.footerSocial {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.footerSocial a {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s ease-out;
+}
+
+.footerSocial img {
+  transition: all 0.3s ease-out;
+}
+
+.footerSocial a:hover {
+  background-color: rgba(240, 240, 240, 0.5);
+}
+
+.footerSocial a:hover img {
+  transform: rotate(360deg);
+}
+
+.privacyCtn p {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 20px;
+}
