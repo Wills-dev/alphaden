@@ -87,13 +87,15 @@ const NavBar = () => {
       </div>
       <div className="nav-bar-down">
         <div className="home-icon-ctn">
-          <Image
-            src="/assets/images/logo.png"
-            alt="Alphaden group"
-            width={100}
-            height={30}
-            className="logo"
-          />
+          <Link href="/">
+            <Image
+              src="/assets/images/logo.png"
+              alt="Alphaden group"
+              width={100}
+              height={30}
+              className="logo"
+            />
+          </Link>
         </div>
         <div className="pages-ctn">
           {navLinks.map(({ name, link }) => {
