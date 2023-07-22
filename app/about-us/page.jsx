@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import "@styles/about-us.css";
+import styles from "../../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import AOS from "aos";
@@ -91,7 +92,12 @@ const page = () => {
       <section className="container mt-5">
         <div className="row my-5">
           <div className="col-lg-3 col-md-4 col-sm-6 col-12 ">
-            <div className={styles.ourValueWrapper}>
+            <div
+              className={styles.ourValueWrapper}
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-offset="300"
+            >
               <div className={styles.iconCtn}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -108,25 +114,20 @@ const page = () => {
                   />
                 </svg>
               </div>
-              <h3
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-offset="300"
-              >
-                Mission Statement
-              </h3>
-              <p
-                data-aos="fade-up"
-                data-aos-duration="2000"
-                data-aos-offset="300"
-              >
+              <h3>Mission Statement</h3>
+              <p>
                 Constantly adopting efficiency dynamics in empowering people to
                 deliver excellence with innovation in the pursuit of perfection.
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-4  col-sm-6 col-12 ">
-            <div className={styles.ourValueWrapper}>
+            <div
+              className={styles.ourValueWrapper}
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-offset="300"
+            >
               <div className={styles.iconCtn}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -143,25 +144,20 @@ const page = () => {
                   />
                 </svg>
               </div>
-              <h3
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-offset="300"
-              >
-                Our Vision
-              </h3>
-              <p
-                data-aos="fade-up"
-                data-aos-duration="2000"
-                data-aos-offset="300"
-              >
+              <h3>Our Vision</h3>
+              <p>
                 To be the dominant EPCI service provider from Africa, delivering
                 capital projects globally.
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-4  col-sm-6 col-12 ">
-            <div className={styles.ourValueWrapper}>
+            <div
+              className={styles.ourValueWrapper}
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-offset="300"
+            >
               <div className={styles.iconCtn}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,18 +174,8 @@ const page = () => {
                   />
                 </svg>
               </div>
-              <h3
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-offset="300"
-              >
-                Core Values
-              </h3>
-              <ul
-                data-aos="fade-up"
-                data-aos-duration="2000"
-                data-aos-offset="300"
-              >
+              <h3>Core Values</h3>
+              <ul>
                 <li>P-eople First</li>
                 <li>I-ntegrity</li>
                 <li>I-nnovation</li>
@@ -198,7 +184,12 @@ const page = () => {
             </div>
           </div>
           <div className="col-lg-3 col-md-4  col-sm-6 col-12 ">
-            <div className={styles.ourValueWrapper}>
+            <div
+              className={styles.ourValueWrapper}
+              data-aos="fade-up"
+              data-aos-duration="2500"
+              data-aos-offset="300"
+            >
               <div className={styles.iconCtn}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -215,21 +206,226 @@ const page = () => {
                   />
                 </svg>
               </div>
-              <h3
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-offset="300"
-              >
-                Strategy
-              </h3>
-              <p
-                data-aos="fade-up"
-                data-aos-duration="2000"
-                data-aos-offset="300"
-              >
+              <h3>Strategy</h3>
+              <p>
                 Our Strategy seeks to maintain us as one of the global leaders
                 in the oil and gas industry with a focus….
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className={styles.serviceCtn}>
+          <div className="container">
+            <div className={styles.titleCtn}>
+              <h1>Our Sectors</h1>
+            </div>
+            <div className="row my-5">
+              <div className="col-lg-4 col-sm-6 col-12 ">
+                <Link href="alphadenenergy.com">
+                  <div
+                    className={styles.serviceWrapper}
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="300"
+                  >
+                    <div className={styles.imgCtn}>
+                      <Image
+                        src="/assets/images/electricity.jpeg"
+                        alt="Alphaden group"
+                        width={100}
+                        height={30}
+                      />
+                    </div>
+
+                    <h5>Alphaden Electricity and Power</h5>
+                    <p>
+                      inappropriate behavior is often laughed off as “boys will
+                      be boys,” women face higher conduct women face higher
+                      conduct.
+                    </p>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-lg-4 col-sm-6 col-12 ">
+                <Link href="alphadenenergy.com">
+                  <div
+                    className={styles.serviceWrapper}
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                    data-aos-offset="300"
+                  >
+                    <div className={styles.imgCtn}>
+                      <Image
+                        src="/assets/images/alphaEneg.jpg"
+                        alt="Alphaden group"
+                        width={100}
+                        height={30}
+                      />
+                    </div>
+
+                    <h5>Alphaden Energy</h5>
+                    <p>
+                      inappropriate behavior is often laughed off as “boys will
+                      be boys,” women face higher conduct women face higher
+                      conduct.
+                    </p>
+                  </div>
+                </Link>
+              </div>
+
+              <div className="col-lg-4 col-sm-6 col-12 ">
+                <Link href="alphadenenergy.com">
+                  <div
+                    className={styles.serviceWrapper}
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-offset="300"
+                  >
+                    <div className={styles.imgCtn}>
+                      <Image
+                        src="/assets/images/greenEnergy.jpeg"
+                        alt="Alphaden group"
+                        width={100}
+                        height={30}
+                      />
+                    </div>
+
+                    <h5>Alphaden Green Energy</h5>
+                    <p>
+                      inappropriate behavior is often laughed off as “boys will
+                      be boys,” women face higher conduct women face higher
+                      conduct.
+                    </p>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-lg-4 col-sm-6 col-12 ">
+                <Link href="alphadenenergy.com">
+                  <div
+                    className={styles.serviceWrapper}
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="300"
+                  >
+                    <div className={styles.imgCtn}>
+                      <Image
+                        src="/assets/images/alphaGas.jpg"
+                        alt="Alphaden group"
+                        width={100}
+                        height={30}
+                      />
+                    </div>
+
+                    <h5>Alphaden Gas</h5>
+                    <p>
+                      inappropriate behavior is often laughed off as “boys will
+                      be boys,” women face higher conduct women face higher
+                      conduct.
+                    </p>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-lg-4 col-sm-6 col-12 ">
+                <Link href="alphadenenergy.com">
+                  <div
+                    className={styles.serviceWrapper}
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-offset="300"
+                  >
+                    <div className={styles.imgCtn}>
+                      <Image
+                        src="/assets/images/alphaGas2.jpeg"
+                        alt="Alphaden group"
+                        width={100}
+                        height={30}
+                      />
+                    </div>
+
+                    <h5>Alphaden Technology</h5>
+                    <p>
+                      inappropriate behavior is often laughed off as “boys will
+                      be boys,” women face higher conduct women face higher
+                      conduct.
+                    </p>
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="container">
+        <div className={styles.titleCtn2}>
+          <p>HAVE QUESTION?</p>
+          <h1>CONTACT US</h1>
+        </div>
+        <div className={styles.contactWrapperForm}>
+          <div className="row">
+            <div className="col-md-5 col-sm-4 col-12">
+              <div className={styles.addressCtn}>
+                <div>
+                  <h5>Address:</h5>
+                  <p>184 Main Collins Street</p>
+                </div>
+                <div>
+                  <h5>Phone:</h5>
+                  <p>(226) 446 9371</p>
+                </div>
+                <div>
+                  <h5>Email:</h5>
+                  <p>confer@gmail.com</p>
+                </div>
+                <div>
+                  <h5>Website:</h5>
+                  <p>www.confer.com</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-7 col-sm-8 col-12">
+              <form className={styles.contactFormCtn}>
+                <div className="row">
+                  <div className="col-md-6 col-12">
+                    <input type="text" placeholder="First Name" />
+                  </div>
+                  <div className="col-md-6 col-12">
+                    <input type="text" placeholder="Last Name" />
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-6 col-12">
+                    <input type="email" placeholder="E-Mail" />
+                  </div>
+                  <div className="col-md-6 col-12">
+                    <input type="number" placeholder="Your Number" />
+                  </div>
+                </div>
+                <div className="row">
+                  <div className=" col-12">
+                    <textarea type="text" placeholder="Your Message" rows={2} />
+                  </div>
+                </div>
+
+                <button type="submit">
+                  SEND MESSAGE{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </button>
+              </form>
             </div>
           </div>
         </div>

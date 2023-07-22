@@ -61,7 +61,7 @@
 
 .aboutMainOpacityCtn h1 {
   background-color: #f0f0f0;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   padding: 20px;
   font-family: "Josefin Sans", sans-serif;
@@ -73,7 +73,7 @@
 }
 
 .aboutMainOpacityCtn div {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 20px;
   padding: 20px 20px 0;
@@ -81,4 +81,7 @@
 }
 
 @media only screen and (min-width: 46.875em) {
+  .aboutMainOpacityCtn h1 {
+    font-size: 18px;
+  }
 }

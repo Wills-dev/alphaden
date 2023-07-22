@@ -208,8 +208,8 @@ const Home = () => {
         </div>
       </section>
       <section className="container">
-        <div className="aboutUs">
-          <div className="aboutUsContent">
+        <div className={styles.aboutUs}>
+          <div className={styles.aboutUsContent}>
             <h4
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -235,27 +235,27 @@ const Home = () => {
 
             <Link href="/about-us">Read more</Link>
           </div>
-          <div className="aboutUsImg">
+          <div className={styles.aboutUsImg}>
             <Image
               src="/assets/images/about.png"
               alt="Alphaden group"
               width={100}
               height={30}
-              className="aboutImage"
+              className={styles.aboutImage}
             />
           </div>
         </div>
       </section>
       <section className="container">
-        <div className="serviceCtn">
-          <div className="titleCtn">
+        <div className={styles.serviceCtn}>
+          <div className={styles.titleCtn}>
             <h1>Our Services</h1>
           </div>
           <div className="row my-5">
             <div className="col-lg-4 col-sm-6 col-12 ">
               <Link href="alphadenenergy.com">
                 <div
-                  className="serviceWrapper"
+                  className={styles.serviceWrapper}
                   data-aos="fade-up"
                   data-aos-duration="1000"
                   data-aos-offset="300"
@@ -358,7 +358,7 @@ const Home = () => {
                 <div
                   className={styles.serviceWrapper}
                   data-aos="fade-up"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                   data-aos-offset="300"
                 >
                   <div className={styles.imgCtn}>
@@ -513,42 +513,82 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
               <div className={styles.partner}>
-                <Image src="/assets/images/logo_1.png" width={50} height={60} />
+                <Image
+                  src="/assets/images/logo_1.png"
+                  width={50}
+                  height={60}
+                  alt="Alphaden group"
+                />
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
               <div className={styles.partner}>
-                <Image src="/assets/images/logo_2.png" width={50} height={60} />
+                <Image
+                  src="/assets/images/logo_2.png"
+                  width={50}
+                  height={60}
+                  alt="Alphaden group"
+                />
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
               <div className={styles.partner}>
-                <Image src="/assets/images/logo_3.png" width={50} height={60} />
+                <Image
+                  src="/assets/images/logo_3.png"
+                  width={50}
+                  height={60}
+                  alt="Alphaden group"
+                />
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
               <div className={styles.partner}>
-                <Image src="/assets/images/logo_4.png" width={50} height={60} />
+                <Image
+                  src="/assets/images/logo_4.png"
+                  width={50}
+                  height={60}
+                  alt="Alphaden group"
+                />
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
               <div className={styles.partner}>
-                <Image src="/assets/images/logo_5.png" width={50} height={60} />
+                <Image
+                  src="/assets/images/logo_5.png"
+                  width={50}
+                  height={60}
+                  alt="Alphaden group"
+                />
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
               <div className={styles.partner}>
-                <Image src="/assets/images/logo_6.png" width={50} height={60} />
+                <Image
+                  src="/assets/images/logo_6.png"
+                  width={50}
+                  height={60}
+                  alt="Alphaden group"
+                />
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
               <div className={styles.partner}>
-                <Image src="/assets/images/logo_7.png" width={50} height={60} />
+                <Image
+                  src="/assets/images/logo_7.png"
+                  width={50}
+                  height={60}
+                  alt="Alphaden group"
+                />
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
               <div className={styles.partner}>
-                <Image src="/assets/images/logo_8.png" width={50} height={60} />
+                <Image
+                  src="/assets/images/logo_8.png"
+                  width={50}
+                  height={60}
+                  alt="Alphaden group"
+                />
               </div>
             </div>
           </div>

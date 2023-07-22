@@ -2,19 +2,16 @@
 
 import "@styles/nav-bar.css";
 import { useState } from "react";
-import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import useFixedNavbar from "@hooks/useFixedNavbar";
+import { useActivePath } from "@hooks/useActivePath";
 
 const NavBar = () => {
-  const pathname = usePathname();
   const [openNav, setOpenNav] = useState(true);
   const [openSub, setOpenSub] = useState(true);
 
   const isFixed = useFixedNavbar(window.innerHeight * 0.06);
-
-  console.log("isFixed", isFixed);
 
   const handleClick = (event) => {
     setOpenSub((current) => !current);
@@ -98,7 +95,7 @@ const NavBar = () => {
         </div>
         <div className="pages-ctn">
           {navLinks.map(({ name, link }) => {
-            const isActive = pathname.startsWith(link);
+            const isActive = useActivePath(link);
             return (
               <Link
                 key={name}
@@ -180,7 +177,7 @@ const NavBar = () => {
             </svg>
           </div>
           {navLinks.map(({ name, link }) => {
-            const isActive = pathname.startsWith(link);
+            const isActive = useActivePath(link);
             return (
               <Link
                 key={name}
@@ -191,7 +188,7 @@ const NavBar = () => {
               </Link>
             );
           })}
-          <div>
+          <div className="mobile-sub-ctn">
             <p onClick={handleClick}>
               Subsidaries{" "}
               <svg
@@ -215,7 +212,7 @@ const NavBar = () => {
               }
             >
               <li>
-                <Link href="alphadentechnology.com"> Alphaden Technology</Link>
+                <Link href="alphadentechnology.com"> Alphaden Tech</Link>
               </li>
               <li>
                 <Link href="alphadentechnology.com">Alphaden Gas</Link>
