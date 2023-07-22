@@ -1,0 +1,84 @@
+.aboutMainTitleCtn {
+  background: linear-gradient(to right, #ff351a, #f54444);
+}
+
+.aboutMainTitleWrapper {
+  padding: 80px 0;
+}
+
+.aboutMainTitleWrapper h1 {
+  color: #ffffff;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: left;
+}
+
+.aboutMainTitleWrapper p {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  text-align: left;
+  color: #f0f0f0;
+}
+
+.aboutMainTitleWrapper p a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+.aboutMainTitleWrapper p a:hover {
+  color: #073b4c;
+}
+
+.aboutMainTitleWrapper p svg {
+  width: 18px;
+}
+
+.aboutMainContent {
+  background: linear-gradient(
+      to right,
+      rgba(250, 247, 247, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    url("/assets/images/background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed !important;
+  float: none !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: auto !important;
+  position: relative !important;
+  margin: 80px 0;
+}
+
+.aboutMainOpacityCtn {
+  padding: 40px 0;
+}
+
+.aboutMainOpacityCtn h1 {
+  background-color: #f0f0f0;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #073b4c;
+}
+
+.aboutMainOpacityCtn h1 span {
+  color: #ff351a;
+}
+
+.aboutMainOpacityCtn div {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 20px 20px 0;
+  font-family: "Mulish", sans-serif;
+}
+
+@media only screen and (min-width: 46.875em) {
+}

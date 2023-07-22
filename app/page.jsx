@@ -208,8 +208,8 @@ const Home = () => {
         </div>
       </section>
       <section className="container">
-        <div className={styles.aboutUs}>
-          <div className={styles.aboutUsContent}>
+        <div className="aboutUs">
+          <div className="aboutUsContent">
             <h4
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -235,27 +235,27 @@ const Home = () => {
 
             <Link href="/about-us">Read more</Link>
           </div>
-          <div className={styles.aboutUsImg}>
+          <div className="aboutUsImg">
             <Image
               src="/assets/images/about.png"
               alt="Alphaden group"
               width={100}
               height={30}
-              className={styles.aboutImage}
+              className="aboutImage"
             />
           </div>
         </div>
       </section>
       <section className="container">
-        <div className={styles.serviceCtn}>
-          <div className={styles.titleCtn}>
+        <div className="serviceCtn">
+          <div className="titleCtn">
             <h1>Our Services</h1>
           </div>
           <div className="row my-5">
             <div className="col-lg-4 col-sm-6 col-12 ">
               <Link href="alphadenenergy.com">
                 <div
-                  className={styles.serviceWrapper}
+                  className="serviceWrapper"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                   data-aos-offset="300"
