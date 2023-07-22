@@ -11,7 +11,9 @@ const NavBar = () => {
   const [openNav, setOpenNav] = useState(true);
   const [openSub, setOpenSub] = useState(true);
 
-  const isFixed = useFixedNavbar(window.innerHeight * 0.06);
+  const isFixed = useFixedNavbar(
+    typeof window !== "undefined" ? window.innerHeight * 0.06 : 0
+  );
 
   const handleClick = (event) => {
     setOpenSub((current) => !current);

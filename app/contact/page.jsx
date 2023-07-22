@@ -1,6 +1,6 @@
 "use client";
 
-import MapComponent from "@components/MapComponent";
+// import MapComponent from "@components/MapComponent";
 import styles from "../../styles/Home.module.css";
 import "@styles/contact.css";
 
@@ -8,10 +8,7 @@ const page = () => {
   return (
     <div className="aboutMainCtn">
       <section className="container">
-        <div className="mapCtn">
-          {" "}
-          <MapComponent />
-        </div>
+        <div className="mapCtn"> {/* <MapComponent /> */}</div>
       </section>
       <section className="container">
         <div className={styles.titleCtn2}>

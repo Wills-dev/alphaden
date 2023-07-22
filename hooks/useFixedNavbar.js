@@ -1,20 +1,19 @@
 import { useState, useEffect } from "react";
 
-const useFixedNavbar = (threshold) => {
+const useFixedNavbar = (height) => {
   const [isFixed, setIsFixed] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      setIsFixed(scrollPosition > threshold);
-    };
+    function handleScroll() {
+      setIsFixed(window.pageYOffset > height);
+    }
 
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [threshold]);
+    // Only attach the event listener on the client-side
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }
+  }, [height]);
 
   return isFixed;
 };
