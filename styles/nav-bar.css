@@ -94,7 +94,7 @@
 }
 
 .nav-bar-down .pages-ctn-mobile .menu-icon-ctn svg {
-  color: #ff351a;
+  color: #000;
 }
 
 .menu-icon-close {
@@ -111,7 +111,7 @@
   right: -90%; /* Start with the sidebar hidden */
   width: 70%;
   height: 100%;
-  background-color: #ff351a;
+  background-color: rgba(0, 0, 0, 0.97);
   padding: 20px;
   box-sizing: border-box;
   transition: right 0.3s ease-in-out; /* Add smooth transition */
@@ -139,7 +139,7 @@
 }
 
 .nav-bar-down .pages-wrapper .active {
-  color: #073b4c;
+  color: #ff351a;
   font-weight: 600;
 }
 
@@ -154,10 +154,10 @@
   padding: 2px 1px;
 }
 
-.nav-bar-down .pages-wrapper p:hover,
+/* .nav-bar-down .pages-wrapper p:hover,
 .nav-bar-down .pages-wrapper .nav-link:hover {
-  color: #073b4c;
-}
+  color: #ff351a;
+} */
 
 .nav-bar-down .pages-wrapper p:hover svg {
   color: #fff;
@@ -171,7 +171,7 @@
 .mobile-subsidaries {
   position: absolute;
   top: -100%;
-  background-color: #fe0000;
+  background-color: #000;
   padding: 20px;
   box-sizing: border-box;
   transition: right 0.3s ease-in-out;
@@ -196,9 +196,9 @@
   transition: all 0.3s ease-out;
 }
 
-.mobile-subsidaries li a:hover {
+/* .mobile-subsidaries li a:hover {
   color: #073b4c;
-}
+} */
 
 @media only screen and (min-width: 46.875em) {
   .nav-bar-up {
@@ -268,7 +268,7 @@
 
   .subsidaries-ctn ul {
     position: absolute;
-    background-color: #f0f0f0;
+    background-color: #666666;
     padding: 0px 0px;
     width: 180px;
     top: 25px;
@@ -287,7 +287,7 @@
   .subsidaries-ctn ul li {
     list-style: none;
     padding: 10px 10px;
-    border-bottom: 0.5px solid #073b4c;
+    border-bottom: 0.5px solid #f0f0f0;
     width: 100%;
   }
 
@@ -297,7 +297,7 @@
 
   .subsidaries-ctn ul li a {
     text-decoration: none;
-    color: #073b4c;
+    color: #f0f0f0;
     transition: all 0.3s ease-out;
   }
 

@@ -21,15 +21,15 @@ const NavBar = () => {
 
   const navLinks = [
     {
-      name: "Home",
+      name: "HOME",
       link: "/",
     },
     {
-      name: "About",
+      name: "ABOUT",
       link: "/about-us",
     },
     {
-      name: "Contact",
+      name: "CONTACT",
       link: "/contact",
     },
   ];
@@ -112,7 +112,7 @@ const NavBar = () => {
           })}
           <div className="subsidaries-ctn">
             <p>
-              Subsidaries{" "}
+              OUR BUSINESSES{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -194,7 +194,7 @@ const NavBar = () => {
           })}
           <div className="mobile-sub-ctn">
             <p onClick={handleClick}>
-              Subsidaries{" "}
+              OUR BUSINESSES{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
