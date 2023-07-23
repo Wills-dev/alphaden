@@ -51,6 +51,20 @@
   padding: 30px;
 }
 
+.nav-bar-down .home-icon-ctn {
+  width: 100px;
+}
+
+.home-icon-ctn a {
+  width: 100%;
+}
+
+.home-icon-ctn a img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 .nav-bar-down .pages-ctn {
   display: none;
 }
