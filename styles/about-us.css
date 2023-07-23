@@ -1,5 +1,6 @@
 .aboutMainTitleCtn {
-  background: linear-gradient(to right, #343434, #f54444);
+  /* background: linear-gradient(to right, #343434, #f54444); */
+  background-color: #f0f0f0;
 }
 
 .aboutMainTitleWrapper {
@@ -7,7 +8,7 @@
 }
 
 .aboutMainTitleWrapper h1 {
-  color: #ffffff;
+  color: #222222;
   font-size: 45px;
   text-transform: uppercase;
   font-weight: 900;
@@ -20,16 +21,16 @@
   font-size: 18px;
   font-family: "Mulish", sans-serif;
   text-align: left;
-  color: #f0f0f0;
+  color: #ff351a;
 }
 
 .aboutMainTitleWrapper p a {
   text-decoration: none;
-  color: #f0f0f0;
+  color: #ff351a;
 }
 
 .aboutMainTitleWrapper p a:hover {
-  color: #073b4c;
+  color: #222222;
 }
 
 .aboutMainTitleWrapper p svg {
