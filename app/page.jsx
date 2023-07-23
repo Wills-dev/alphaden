@@ -88,11 +88,7 @@ const Home = () => {
               >
                 Mission Statement
               </h3>
-              <p
-                data-aos="fade-up"
-                data-aos-duration="2000"
-                data-aos-offset="300"
-              >
+              <p>
                 Constantly adopting efficiency dynamics in empowering people to
                 deliver excellence with innovation in the pursuit of perfection.
               </p>
@@ -123,11 +119,7 @@ const Home = () => {
               >
                 Our Vision
               </h3>
-              <p
-                data-aos="fade-up"
-                data-aos-duration="2000"
-                data-aos-offset="300"
-              >
+              <p>
                 To be the dominant EPCI service provider from Africa, delivering
                 capital projects globally.
               </p>
@@ -158,11 +150,7 @@ const Home = () => {
               >
                 Core Values
               </h3>
-              <ul
-                data-aos="fade-up"
-                data-aos-duration="2000"
-                data-aos-offset="300"
-              >
+              <ul>
                 <li>P-eople First</li>
                 <li>I-ntegrity</li>
                 <li>I-nnovation</li>
@@ -195,11 +183,7 @@ const Home = () => {
               >
                 Strategy
               </h3>
-              <p
-                data-aos="fade-up"
-                data-aos-duration="2000"
-                data-aos-offset="300"
-              >
+              <p>
                 Our Strategy seeks to maintain us as one of the global leaders
                 in the oil and gas industry with a focus….
               </p>

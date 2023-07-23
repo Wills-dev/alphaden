@@ -8,11 +8,7 @@
 
 .header {
   height: 80vh;
-  background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.8),
-      rgba(246, 144, 144, 0.5)
-    ),
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
     url("/assets/images/heroImg.jpg");
   background-position: center;
   background-repeat: no-repeat;
