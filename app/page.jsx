@@ -216,13 +216,13 @@ const Home = () => {
             <Link href="/about-us">Read more</Link>
           </div>
           <div className={styles.aboutUsImg}>
-            <Image
+            {/* <Image
               src="/assets/images/about.png"
               alt="Alphaden group"
               width={100}
-              height={30}
+              height={300}
               className={styles.aboutImage}
-            />
+            /> */}
           </div>
         </div>
       </section>
@@ -239,18 +239,12 @@ const Home = () => {
                     <Image
                       src="/assets/images/electricity.jpeg"
                       alt="Alphaden group"
-                      width={100}
-                      height={30}
+                      width={300}
+                      height={250}
                     />
                   </div>
 
-                  <h5
-                    data-aos="fade-up"
-                    data-aos-duration="500"
-                    data-aos-offset="300"
-                  >
-                    Alphaden Electricity and Power
-                  </h5>
+                  <h5>Alphaden Electricity and Power</h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
@@ -265,8 +259,8 @@ const Home = () => {
                     <Image
                       src="/assets/images/alphaEneg.jpg"
                       alt="Alphaden group"
-                      width={100}
-                      height={30}
+                      width={300}
+                      height={250}
                     />
                   </div>
 
@@ -292,18 +286,12 @@ const Home = () => {
                     <Image
                       src="/assets/images/greenEnergy.jpeg"
                       alt="Alphaden group"
-                      width={100}
-                      height={30}
+                      width={300}
+                      height={250}
                     />
                   </div>
 
-                  <h5
-                    data-aos="fade-up"
-                    data-aos-duration="500"
-                    data-aos-offset="300"
-                  >
-                    Alphaden Green Energy
-                  </h5>
+                  <h5>Alphaden Green Energy</h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
@@ -318,18 +306,12 @@ const Home = () => {
                     <Image
                       src="/assets/images/alphaGas.jpg"
                       alt="Alphaden group"
-                      width={100}
-                      height={30}
+                      width={300}
+                      height={250}
                     />
                   </div>
 
-                  <h5
-                    data-aos="fade-up"
-                    data-aos-duration="500"
-                    data-aos-offset="300"
-                  >
-                    Alphaden Gas
-                  </h5>
+                  <h5>Alphaden Gas</h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
@@ -344,18 +326,32 @@ const Home = () => {
                     <Image
                       src="/assets/images/alphaGas2.jpeg"
                       alt="Alphaden group"
-                      width={100}
-                      height={30}
+                      width={300}
+                      height={250}
                     />
                   </div>
 
-                  <h5
-                    data-aos="fade-up"
-                    data-aos-duration="500"
-                    data-aos-offset="300"
-                  >
-                    Alphaden Technology
-                  </h5>
+                  <h5>Alphaden Technology</h5>
+                  <p>
+                    inappropriate behavior is often laughed off as “boys will be
+                    boys,” women face higher conduct women face higher conduct.
+                  </p>
+                </div>
+              </Link>
+            </div>
+            <div className="col-lg-4 col-sm-6 col-12 ">
+              <Link href="alphadenenergy.com">
+                <div className={styles.serviceWrapper}>
+                  <div className={styles.imgCtn}>
+                    <Image
+                      src="/assets/images/alphaEneg.jpg"
+                      alt="Alphaden group"
+                      width={300}
+                      height={250}
+                    />
+                  </div>
+
+                  <h5>Alphaden Energy</h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
