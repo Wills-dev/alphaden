@@ -255,13 +255,7 @@ const page = () => {
                       />
                     </div>
 
-                    <h5
-                      data-aos="fade-up"
-                      data-aos-duration="500"
-                      data-aos-offset="300"
-                    >
-                      Alphaden Energy
-                    </h5>
+                    <h5>Alphaden Energy</h5>
                     <p>
                       inappropriate behavior is often laughed off as “boys will
                       be boys,” women face higher conduct women face higher
