@@ -229,7 +229,7 @@ const Home = () => {
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
-                      src="/assets/images/electricity.jpeg"
+                      src="/assets/images/serv6.jpeg"
                       alt="Alphaden group"
                       width={300}
                       height={220}
@@ -280,7 +280,7 @@ const Home = () => {
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
-                      src="/assets/images/serv2.jpeg"
+                      src="/assets/images/serv5.jpeg"
                       alt="Alphaden group"
                       width={300}
                       height={220}
@@ -328,7 +328,7 @@ const Home = () => {
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
-                      src="/assets/images/alphaGas2.jpeg"
+                      src="/assets/images/serv7.jpeg"
                       alt="Alphaden group"
                       width={300}
                       height={220}
@@ -352,7 +352,7 @@ const Home = () => {
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
-                      src="/assets/images/serv.jpeg"
+                      src="/assets/images/serv4.jpeg"
                       alt="Alphaden group"
                       width={300}
                       height={220}

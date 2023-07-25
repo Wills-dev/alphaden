@@ -276,7 +276,7 @@
 
 .serviceWrapper img {
   width: 100%;
-  filter: grayscale(70%);
+  filter: grayscale(40%);
   transition: all 0.4s ease-out;
   overflow: hidden;
   object-fit: cover;
