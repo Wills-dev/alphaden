@@ -236,7 +236,7 @@ const Home = () => {
                     />
                   </div>
 
-                  <h5>Alphaden Electricity and Power</h5>
+                  <h5>Alphaden E & P</h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
@@ -335,7 +335,7 @@ const Home = () => {
                     />
                   </div>
 
-                  <h5>Alphaden Technology</h5>
+                  <h5>Alphaden Technologies</h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.
@@ -359,7 +359,7 @@ const Home = () => {
                     />
                   </div>
 
-                  <h5>Alphaden Energy</h5>
+                  <h5>Alphaden Home</h5>
                   <p>
                     inappropriate behavior is often laughed off as “boys will be
                     boys,” women face higher conduct women face higher conduct.

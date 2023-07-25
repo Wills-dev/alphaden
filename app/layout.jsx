@@ -4,7 +4,7 @@ import "@styles/globals.css";
 import Footer from "@components/Footer";
 
 export const metadata = {
-  title: "Alphaden group",
+  title: "Alphaden Holding",
   description: "We're a provider of fit-for-purpose services",
 };
 

@@ -91,10 +91,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="privacyCtn">
-          <p>
-            Copyright © 2023 Alphaden Energy and Oilfield Limited. All rights
-            reserved.
-          </p>
+          <p>Copyright © 2023 Alphaden Holding Limited. All rights reserved.</p>
         </div>
       </div>
     </footer>

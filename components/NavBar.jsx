@@ -130,13 +130,32 @@ const NavBar = () => {
             </p>
             <ul className="group-ctn">
               <li>
-                <Link href="alphadentechnology.com"> Alphaden Tech</Link>
+                <a
+                  href="https://alphadenenergy.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Alphaden Gas
+                </a>
               </li>
               <li>
-                <Link href="alphadentechnology.com">Alphaden Gas</Link>
+                <a
+                  href="https://alphadenenergy.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Alphaden Energy
+                </a>
               </li>
               <li>
-                <Link href="alphadentechnology.com">Alphaden Energy</Link>
+                <a
+                  href="https://alphadenenergy.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  Alphaden Technologies
+                </a>
               </li>
             </ul>
           </div>
@@ -216,13 +235,32 @@ const NavBar = () => {
               }
             >
               <li>
-                <Link href="alphadentechnology.com"> Alphaden Tech</Link>
+                <a
+                  href="https://alphadenenergy.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Alphaden Gas
+                </a>
               </li>
               <li>
-                <Link href="alphadentechnology.com">Alphaden Gas</Link>
+                <a
+                  href="https://alphadenenergy.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Alphaden Energy
+                </a>
               </li>
               <li>
-                <Link href="alphadentechnology.com">Alphaden Energy</Link>
+                <a
+                  href="https://alphadenenergy.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  Alphaden Technologies
+                </a>
               </li>
             </ul>
           </div>
