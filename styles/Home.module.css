@@ -271,7 +271,7 @@
 .serviceWrapper .imgCtn {
   width: 100%;
   overflow: hidden;
-  height: 250px;
+  height: 220px;
 }
 
 .serviceWrapper img {
@@ -480,10 +480,8 @@
 }
 
 .partner img {
-  width: 150px;
-  height: 150px;
   object-fit: cover;
-  filter: grayscale(50%);
+  filter: grayscale(10%);
 }
 
 .contactWrapperForm {

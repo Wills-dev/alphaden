@@ -215,15 +215,7 @@ const Home = () => {
 
             <Link href="/about-us">Read more</Link>
           </div>
-          <div className={styles.aboutUsImg}>
-            {/* <Image
-              src="/assets/images/about.png"
-              alt="Alphaden group"
-              width={100}
-              height={300}
-              className={styles.aboutImage}
-            /> */}
-          </div>
+          <div className={styles.aboutUsImg}></div>
         </div>
       </section>
       <section className="container">
@@ -240,7 +232,7 @@ const Home = () => {
                       src="/assets/images/electricity.jpeg"
                       alt="Alphaden group"
                       width={300}
-                      height={250}
+                      height={220}
                     />
                   </div>
 
@@ -257,10 +249,10 @@ const Home = () => {
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
-                      src="/assets/images/alphaEneg.jpg"
+                      src="/assets/images/serv1.jpeg"
                       alt="Alphaden group"
                       width={300}
-                      height={250}
+                      height={220}
                     />
                   </div>
 
@@ -280,14 +272,18 @@ const Home = () => {
             </div>
 
             <div className="col-lg-4 col-sm-6 col-12 ">
-              <Link href="alphadenenergy.com">
+              <a
+                href="https://alphadenenergy.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
-                      src="/assets/images/greenEnergy.jpeg"
+                      src="/assets/images/serv2.jpeg"
                       alt="Alphaden group"
                       width={300}
-                      height={250}
+                      height={220}
                     />
                   </div>
 
@@ -297,17 +293,21 @@ const Home = () => {
                     boys,” women face higher conduct women face higher conduct.
                   </p>
                 </div>
-              </Link>
+              </a>
             </div>
             <div className="col-lg-4 col-sm-6 col-12 ">
-              <Link href="alphadenenergy.com">
+              <a
+                href="https://alphadenenergy.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
                       src="/assets/images/alphaGas.jpg"
                       alt="Alphaden group"
                       width={300}
-                      height={250}
+                      height={220}
                     />
                   </div>
 
@@ -317,17 +317,21 @@ const Home = () => {
                     boys,” women face higher conduct women face higher conduct.
                   </p>
                 </div>
-              </Link>
+              </a>
             </div>
             <div className="col-lg-4 col-sm-6 col-12 ">
-              <Link href="alphadenenergy.com">
+              <aboutUs
+                href="https://alphadenenergy.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
                       src="/assets/images/alphaGas2.jpeg"
                       alt="Alphaden group"
                       width={300}
-                      height={250}
+                      height={220}
                     />
                   </div>
 
@@ -337,17 +341,21 @@ const Home = () => {
                     boys,” women face higher conduct women face higher conduct.
                   </p>
                 </div>
-              </Link>
+              </aboutUs>
             </div>
             <div className="col-lg-4 col-sm-6 col-12 ">
-              <Link href="alphadenenergy.com">
+              <a
+                href="https://alphadenenergy.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
-                      src="/assets/images/alphaEneg.jpg"
+                      src="/assets/images/serv.jpeg"
                       alt="Alphaden group"
                       width={300}
-                      height={250}
+                      height={220}
                     />
                   </div>
 
@@ -357,7 +365,7 @@ const Home = () => {
                     boys,” women face higher conduct women face higher conduct.
                   </p>
                 </div>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -488,16 +496,16 @@ const Home = () => {
       <section className="container">
         <div className={styles.partnerCtn}>
           <div className={styles.titleCtn2}>
-            <p>PARTNERS & SPONSORS</p>
-            <h1>OFFICIAL SPONSOR</h1>
+            <p>OUR OFFICIAL CLIENTS WHO ARE PLEASED WITH OUR SERVICES</p>
+            <h1>CLIENTS</h1>
           </div>
           <div className="row">
             <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
               <div className={styles.partner}>
                 <Image
                   src="/assets/images/logo_1.png"
-                  width={50}
-                  height={60}
+                  width={150}
+                  height={150}
                   alt="Alphaden group"
                 />
               </div>
@@ -506,8 +514,8 @@ const Home = () => {
               <div className={styles.partner}>
                 <Image
                   src="/assets/images/logo_2.png"
-                  width={50}
-                  height={60}
+                  width={150}
+                  height={150}
                   alt="Alphaden group"
                 />
               </div>
@@ -516,8 +524,8 @@ const Home = () => {
               <div className={styles.partner}>
                 <Image
                   src="/assets/images/logo_3.png"
-                  width={50}
-                  height={60}
+                  width={150}
+                  height={150}
                   alt="Alphaden group"
                 />
               </div>
@@ -526,8 +534,8 @@ const Home = () => {
               <div className={styles.partner}>
                 <Image
                   src="/assets/images/logo_4.png"
-                  width={50}
-                  height={60}
+                  width={150}
+                  height={150}
                   alt="Alphaden group"
                 />
               </div>
@@ -536,8 +544,8 @@ const Home = () => {
               <div className={styles.partner}>
                 <Image
                   src="/assets/images/logo_5.png"
-                  width={50}
-                  height={60}
+                  width={150}
+                  height={150}
                   alt="Alphaden group"
                 />
               </div>
@@ -546,8 +554,8 @@ const Home = () => {
               <div className={styles.partner}>
                 <Image
                   src="/assets/images/logo_6.png"
-                  width={50}
-                  height={60}
+                  width={150}
+                  height={150}
                   alt="Alphaden group"
                 />
               </div>
@@ -556,8 +564,8 @@ const Home = () => {
               <div className={styles.partner}>
                 <Image
                   src="/assets/images/logo_7.png"
-                  width={50}
-                  height={60}
+                  width={150}
+                  height={150}
                   alt="Alphaden group"
                 />
               </div>
@@ -566,8 +574,8 @@ const Home = () => {
               <div className={styles.partner}>
                 <Image
                   src="/assets/images/logo_8.png"
-                  width={50}
-                  height={60}
+                  width={150}
+                  height={150}
                   alt="Alphaden group"
                 />
               </div>
