@@ -7,6 +7,7 @@ import Image from "next/image";
 import CountUp from "react-countup";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "../styles/about-us.css";
 
 const Home = () => {
   useEffect(() => {
@@ -482,6 +483,117 @@ const Home = () => {
                   />
                 </h4>
                 <p>Token</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="container">
+        <div className="team-ctn">
+          <div className={styles.titleCtn2}>
+            <h1>Our Directors</h1>
+          </div>
+          <div className="row">
+            <div className=" col-md-4 col-sm-6 col-12">
+              <div className="team-img-ctn team-1">
+                <diV></diV>
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Williams Bassey</h6>
+                <p>Founder & CEO</p>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6 col-12">
+              <div className="team-img-ctn team-2">
+                <diV></diV>
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Elizabeth Bassey</h6>
+                <p>Co-Founder & CTO</p>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6 col-12">
+              <div className="team-img-ctn team-3">
+                <diV></diV>
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Kaburi Ahmed</h6>
+                <p>Head Partnerships</p>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6 col-12">
+              <div className="team-img-ctn team-8">
+                <diV></diV>
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Judith Ham</h6>
+                <p>Human Resource Manager</p>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6 col-12">
+              <div className="team-img-ctn team-4">
+                <diV></diV>
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Wilson Gabriel</h6>
+                <p>Finance Officer</p>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6 col-12">
+              <div className="team-img-ctn team-9">
+                <diV></diV>
+                <Link className="team-media-link" href="twitter.com/">
+                  <Image
+                    src="/assets/icons/linkedin.svg"
+                    width={20}
+                    height={20}
+                    alt="alphaden linkedin"
+                  />
+                </Link>
+              </div>
+              <div className="team-content">
+                <h6>Bassey Bush</h6>
+                <p> Public Relations</p>
               </div>
             </div>
           </div>
