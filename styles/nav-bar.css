@@ -52,7 +52,7 @@
 }
 
 .nav-bar-down .home-icon-ctn {
-  width: 100px;
+  width: 150px;
 }
 
 .home-icon-ctn a {
@@ -62,7 +62,7 @@
 .home-icon-ctn a img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .nav-bar-down .pages-ctn {

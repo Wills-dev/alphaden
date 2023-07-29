@@ -89,7 +89,7 @@ const NavBar = () => {
         <div className="home-icon-ctn">
           <Link href="/">
             <Image
-              src="/assets/images/logo.png"
+              src="/assets/images/alphaden.png"
               alt="Alphaden group"
               width={100}
               height={30}
