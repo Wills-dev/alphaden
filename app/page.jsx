@@ -226,7 +226,11 @@ const Home = () => {
           </div>
           <div className="row my-5">
             <div className="col-lg-4 col-sm-6 col-12 ">
-              <Link href="alphadenenergy.com">
+              <a
+                href="https://alphadenenergy.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
@@ -237,62 +241,23 @@ const Home = () => {
                     />
                   </div>
 
-                  <h5>Alphaden E & P</h5>
-                  <p>
-                    inappropriate behavior is often laughed off as “boys will be
-                    boys,” women face higher conduct women face higher conduct.
-                  </p>
-                </div>
-              </Link>
-            </div>
-            <div className="col-lg-4 col-sm-6 col-12 ">
-              <Link href="alphadenenergy.com">
-                <div className={styles.serviceWrapper}>
-                  <div className={styles.imgCtn}>
-                    <Image
-                      src="/assets/images/serv1.jpeg"
-                      alt="Alphaden group"
-                      width={300}
-                      height={220}
-                    />
-                  </div>
-
                   <h5>Alphaden Energy</h5>
                   <p>
-                    inappropriate behavior is often laughed off as “boys will be
-                    boys,” women face higher conduct women face higher conduct.
-                  </p>
-                </div>
-              </Link>
-            </div>
-
-            <div className="col-lg-4 col-sm-6 col-12 ">
-              <a
-                href="https://alphadenenergy.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className={styles.serviceWrapper}>
-                  <div className={styles.imgCtn}>
-                    <Image
-                      src="/assets/images/serv5.jpeg"
-                      alt="Alphaden group"
-                      width={300}
-                      height={220}
-                    />
-                  </div>
-
-                  <h5>Alphaden Green Energy</h5>
-                  <p>
-                    inappropriate behavior is often laughed off as “boys will be
-                    boys,” women face higher conduct women face higher conduct.
+                    The Energy division plays a pivotal role in Alphaden's
+                    portfolio, focusing on traditional and renewable energy
+                    resources. With a commitment to sustainability, this segment
+                    invests in conventional power generation as well as
+                    renewable energy projects such as Gas, solar, and hydrogen
+                    power. Through strategic partnerships and acquisitions, the
+                    division expands its reach across the energy sector while
+                    contributing to a greener future.
                   </p>
                 </div>
               </a>
             </div>
             <div className="col-lg-4 col-sm-6 col-12 ">
               <a
-                href="https://alphadenenergy.com"
+                href="https://alphadengas.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -323,7 +288,7 @@ const Home = () => {
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
-                      src="/assets/images/serv7.jpeg"
+                      src="/assets/images/serv5.jpeg"
                       alt="Alphaden group"
                       width={300}
                       height={220}
@@ -332,12 +297,69 @@ const Home = () => {
 
                   <h5>Alphaden Technologies</h5>
                   <p>
-                    inappropriate behavior is often laughed off as “boys will be
-                    boys,” women face higher conduct women face higher conduct.
+                    In the fast-paced world of technology, Alphaden's Technology
+                    subsidiary ( Alphaden Technologies ) remains at the
+                    forefront of innovation. It offers a wide range of
+                    cutting-edge products and services, including software and
+                    hardware development, and emerging technologies. By
+                    fostering research and development initiatives, this segment
+                    aims to disrupt markets with its software and hardware
+                    products in different sectors and lead the digital
+                    transformation landscape.
                   </p>
                 </div>
               </aboutUs>
             </div>
+
+            <div className="col-lg-4 col-sm-6 col-12 ">
+              <a
+                href="https://alphadenenergy.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className={styles.serviceWrapper}>
+                  <div className={styles.imgCtn}>
+                    <Image
+                      src="/assets/images/serv7.jpeg"
+                      alt="Alphaden group"
+                      width={300}
+                      height={220}
+                    />
+                  </div>
+
+                  <h5>Alphaden E and P</h5>
+                  <p>
+                    inappropriate behavior is often laughed off as “boys will be
+                    boys,” women face higher conduct women face higher conduct.
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className="col-lg-4 col-sm-6 col-12 ">
+              <a
+                href="https://alphadenenergy.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className={styles.serviceWrapper}>
+                  <div className={styles.imgCtn}>
+                    <Image
+                      src="/assets/images/serv1.jpeg"
+                      alt="Alphaden group"
+                      width={300}
+                      height={220}
+                    />
+                  </div>
+
+                  <h5>Alphaden Green Energy</h5>
+                  <p>
+                    inappropriate behavior is often laughed off as “boys will be
+                    boys,” women face higher conduct women face higher conduct.
+                  </p>
+                </div>
+              </a>
+            </div>
+
             <div className="col-lg-4 col-sm-6 col-12 ">
               <a
                 href="https://alphadenenergy.com"
@@ -361,129 +383,6 @@ const Home = () => {
                   </p>
                 </div>
               </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="container">
-        <div className={styles.titleCtn2}>
-          <h1>Projects</h1>
-          <p>Who are in extremely love with eco friendly system.</p>
-        </div>
-
-        <div className={styles.projectCtn}>
-          <div className="row">
-            <div className="col-lg-4 col-sm-6 col-12 p-0">
-              <div className={styles.projectOne}>
-                <h4>Alex Complex for Residence</h4>
-                <p>
-                  LCD screens are uniquely modern in style, and the liquid
-                  crystals that make them work have allowed humanity to create
-                  slimmer.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 col-12 p-0">
-              <div className={styles.projectTwo}>
-                <h4>Alex Complex for Residence</h4>
-                <p>
-                  LCD screens are uniquely modern in style, and the liquid
-                  crystals that make them work have allowed humanity to create
-                  slimmer.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 col-12 p-0">
-              <div className={styles.projectThree}>
-                <h4>Alex Complex for Residence</h4>
-                <p>
-                  LCD screens are uniquely modern in style, and the liquid
-                  crystals that make them work have allowed humanity to create
-                  slimmer.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 col-12 p-0">
-              <div className={styles.projectFour}>
-                <h4>Alex Complex for Residence</h4>
-                <p>
-                  LCD screens are uniquely modern in style, and the liquid
-                  crystals that make them work have allowed humanity to create
-                  slimmer.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 col-12 p-0">
-              <div className={styles.projectFive}>
-                <h4>Alex Complex for Residence</h4>
-                <p>
-                  LCD screens are uniquely modern in style, and the liquid
-                  crystals that make them work have allowed humanity to create
-                  slimmer.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6 col-12 p-0">
-              <div className={styles.projectSix}>
-                <h4>Alex Complex for Residence</h4>
-                <p>
-                  LCD screens are uniquely modern in style, and the liquid
-                  crystals that make them work have allowed humanity to create
-                  slimmer.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className={styles.ratingCtn}>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3 col-md-4 col-sm-6 col-12 my-2">
-                <h4>
-                  <CountUp
-                    end={100}
-                    start={0}
-                    duration={4}
-                    enableScrollSpy={true}
-                  />
-                </h4>
-                <p>Projects completed</p>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-6 col-12 my-2">
-                <h4>
-                  <CountUp
-                    end={300}
-                    start={0}
-                    duration={4}
-                    enableScrollSpy={true}
-                  />
-                </h4>
-                <p>Happy clients</p>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-6 col-12 my-2">
-                <h4>
-                  <CountUp
-                    end={160}
-                    start={0}
-                    duration={4}
-                    enableScrollSpy={true}
-                  />
-                </h4>
-                <p>Task completed</p>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-6 col-12 my-2">
-                <h4>
-                  <CountUp
-                    end={200}
-                    start={0}
-                    duration={4}
-                    enableScrollSpy={true}
-                  />
-                </h4>
-                <p>Token</p>
-              </div>
             </div>
           </div>
         </div>
@@ -599,96 +498,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="container">
-        <div className={styles.partnerCtn}>
-          <div className={styles.titleCtn2}>
-            <p>OUR OFFICIAL CLIENTS WHO ARE PLEASED WITH OUR SERVICES</p>
-            <h1>CLIENTS</h1>
-          </div>
-          <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className={styles.partner}>
-                <Image
-                  src="/assets/images/logo_1.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className={styles.partner}>
-                <Image
-                  src="/assets/images/logo_2.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className={styles.partner}>
-                <Image
-                  src="/assets/images/logo_3.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className={styles.partner}>
-                <Image
-                  src="/assets/images/logo_4.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className={styles.partner}>
-                <Image
-                  src="/assets/images/logo_5.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className={styles.partner}>
-                <Image
-                  src="/assets/images/logo_6.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className={styles.partner}>
-                <Image
-                  src="/assets/images/logo_7.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
-              <div className={styles.partner}>
-                <Image
-                  src="/assets/images/logo_8.png"
-                  width={150}
-                  height={150}
-                  alt="Alphaden group"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section className="container">
         <div className={styles.titleCtn2}>
           <p>HAVE QUESTION?</p>
