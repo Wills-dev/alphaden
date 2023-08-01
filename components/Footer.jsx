@@ -78,7 +78,7 @@ const Footer = () => {
               <div className="footerCtn">
                 <h4>USA Office</h4>
                 <p>5048 Nicollet Avenue, Minneapolis Mn. 55419, USA</p>
-                <p>info@alphadenenergy.com</p>
+                <p>info@alphadenholding.com</p>
               </div>
             </div>
           </div>
