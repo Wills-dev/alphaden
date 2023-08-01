@@ -16,9 +16,7 @@ const Footer = () => {
                   Plot 23 Furo Ezimora Street, Off Adewunmi Adebimpe Drive, Off
                   Marwa Roundabout, Lekki Phase 1, Lagos State, Nigeria.
                 </p>
-                <p>
-                  +234(0)700 257 4233 <br /> +234(0)700 ALPHADEN
-                </p>
+                <p>+(234) 0909-933-3222</p>
                 <p>info@alphadenenergy.com</p>
                 <div className="footerSocial">
                   <Link href="twitter.com/">
@@ -63,9 +61,6 @@ const Footer = () => {
                   No 36 Trans Amadi Layout, Port Harcourt, Rivers State,
                   Nigeria.
                 </p>
-                <p>
-                  +234(0)700 257 4233 <br /> +234(0)700 ALPHADEN
-                </p>
                 <p>info@alphadenenergy.com</p>
               </div>
             </div>
@@ -76,7 +71,6 @@ const Footer = () => {
                   #302, 42, Geojejungang-ro,15-Gil, Geoje-si, Kyeongsangnam-do,
                   Republic of Korea
                 </p>
-
                 <p>info@alphadenenergy.com</p>
               </div>
             </div>
@@ -84,7 +78,6 @@ const Footer = () => {
               <div className="footerCtn">
                 <h4>USA Office</h4>
                 <p>5048 Nicollet Avenue, Minneapolis Mn. 55419, USA</p>
-
                 <p>info@alphadenenergy.com</p>
               </div>
             </div>

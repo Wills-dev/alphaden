@@ -35,13 +35,11 @@ const Home = () => {
             </h2>
 
             <p>
-              We strive to make your day a better williow for the grace to abide
-              in the glory of his mercies and togetherness of the living who
-              cherish what the do and offer.
+              Fueling Growth and Innovation Across Sectors as the header on the
+              hero section Alphaden Holdings stands at the forefront of
+              transformative change, spearheading innovation and sustainable
+              growth in a rapidly evolving global landscape.
             </p>
-            {/* <Link href="/about-us" alt="About alphaden">
-              Learn more
-            </Link> */}
             <Link
               className={styles.button}
               href="/about-us"
@@ -79,14 +77,15 @@ const Home = () => {
               <div className={`${styles.sectorCtn} ${styles.sector1}`}>
                 <h3>Energy</h3>
               </div>
-
               <p>
-                Alphaden's Energy division is vital to its portfolio,
-                emphasizing both traditional and renewable resources. Committed
-                to sustainability, it invests in conventional power and
-                renewable projects like Gas, solar, and hydrogen power. Through
-                partnerships and acquisitions, it expands its energy sector
-                presence, promoting a greener future.
+                Alphaden Energy excels in providing comprehensive solutions for
+                major infrastructure and construction projects. It specializes
+                in engineering design, procurement, efficient supply chain
+                management, construction, and installation services. By
+                leveraging cutting-edge technologies and fostering a culture of
+                excellence, this segment delivers world-class projects on
+                schedule and within budget, catering to diverse clients
+                globally.
               </p>
               <div className={styles.sectorWrap}>
                 <div>
@@ -98,6 +97,31 @@ const Home = () => {
                 </div>
 
                 <h5>Alphaden Energy</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 ">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector6}`}>
+                <h3>Marine Services:</h3>
+              </div>
+              <p>
+                Alphaden's Marine Services subsidiary excels in delivering
+                diverse maritime solutions, including oil and gas services,
+                logistics, vessel management, and offshore support. Prioritizing
+                safety, efficiency, and environmental responsibility, it serves
+                West African clients, tackling complex industry challenges.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphadengas.jpeg"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Alphaden Gas</h5>
               </div>
             </div>
           </div>
@@ -123,6 +147,32 @@ const Home = () => {
                 </div>
 
                 <h5>Alphaden Technology</h5>
+              </div>
+            </div>
+          </div>
+          <div className=" col-12 ">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector5}`}>
+                <h3>Green Energy:</h3>
+              </div>
+              <p>
+                Alphaden's Green Energy subsidiary, Alphaden Green Energies, is
+                dedicated to environmental sustainability through eco-friendly
+                solutions. It focuses on renewable energy projects,
+                energy-efficient technologies, micro-grid development, battery
+                power systems, and sustainable initiatives, combating climate
+                change and promoting a greener planet.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphadengreen.jpeg"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Alphaden Green</h5>
               </div>
             </div>
           </div>
@@ -178,57 +228,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className=" col-12 ">
-            <div className={styles.ourValueWrapper}>
-              <div className={`${styles.sectorCtn} ${styles.sector5}`}>
-                <h3>Green Energy:</h3>
-              </div>
-              <p>
-                Alphaden's Green Energy subsidiary, Alphaden Green Energies, is
-                dedicated to environmental sustainability through eco-friendly
-                solutions. It focuses on renewable energy projects,
-                energy-efficient technologies, micro-grid development, battery
-                power systems, and sustainable initiatives, combating climate
-                change and promoting a greener planet.
-              </p>
-              <div className={styles.sectorWrap}>
-                <div>
-                  <Image
-                    src="/assets/images/alphadengreen.jpeg"
-                    width={80}
-                    height={50}
-                  />
-                </div>
 
-                <h5>Alphaden Green</h5>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 ">
-            <div className={styles.ourValueWrapper}>
-              <div className={`${styles.sectorCtn} ${styles.sector6}`}>
-                <h3>Marine Services:</h3>
-              </div>
-              <p>
-                Alphaden's Marine Services subsidiary excels in delivering
-                diverse maritime solutions, including oil and gas services,
-                logistics, vessel management, and offshore support. Prioritizing
-                safety, efficiency, and environmental responsibility, it serves
-                West African clients, tackling complex industry challenges.
-              </p>
-              <div className={styles.sectorWrap}>
-                <div>
-                  <Image
-                    src="/assets/images/alphadengreen.jpeg"
-                    width={80}
-                    height={50}
-                  />
-                </div>
-
-                <h5>Alphaden Green</h5>
-              </div>
-            </div>
-          </div>
           <div className=" col-12 ">
             <div className={styles.ourValueWrapper}>
               <div className={`${styles.sectorCtn} ${styles.sector7}`}>
