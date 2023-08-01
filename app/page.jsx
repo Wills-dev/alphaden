@@ -53,7 +53,7 @@ const Home = () => {
       <section className="container">
         <div className={styles.aboutUs}>
           <div className={styles.aboutUsContent}>
-            <h4>What We Do</h4>
+            <h4>The Holding Company</h4>
             <p>
               Alphaden Holdings is a prominent and dynamic multinational holding
               company, boasting a diverse portfolio of subsidiaries operating
