@@ -5,7 +5,6 @@ import Footer from "@components/Footer";
 
 export const metadata = {
   title: "Alphaden Holding",
-  description: "We're a provider of fit-for-purpose services",
 };
 
 const RootLayout = ({ children }) => {
