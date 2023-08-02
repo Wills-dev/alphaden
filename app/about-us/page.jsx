@@ -162,19 +162,23 @@ const page = () => {
               <div className={styles.addressCtn}>
                 <div>
                   <h5>Address:</h5>
-                  <p>184 Main Collins Street</p>
+                  <p>
+                    {" "}
+                    Plot 23 Furo Ezimora Street, Off Adewunmi Adebimpe Drive,
+                    Off Marwa Roundabout, Lekki Phase 1, Lagos State, Nigeria.
+                  </p>
                 </div>
                 <div>
                   <h5>Phone:</h5>
-                  <p>(226) 446 9371</p>
+                  <p>+(234) 0909-933-3222</p>
                 </div>
                 <div>
                   <h5>Email:</h5>
-                  <p>confer@gmail.com</p>
+                  <p>info@alphadenenergy.com</p>
                 </div>
                 <div>
                   <h5>Website:</h5>
-                  <p>www.confer.com</p>
+                  <p>www.alphadenholding.com</p>
                 </div>
               </div>
             </div>
