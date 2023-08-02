@@ -90,7 +90,7 @@ const Home = () => {
               <div className={styles.sectorWrap}>
                 <div>
                   <Image
-                    src="/assets/images/alphadenenergy.jpeg"
+                    src="/assets/images/alphadenenergy-removebg-preview.png"
                     width={80}
                     height={50}
                   />
@@ -115,7 +115,7 @@ const Home = () => {
               <div className={styles.sectorWrap}>
                 <div>
                   <Image
-                    src="/assets/images/alphadengas.jpeg"
+                    src="/assets/images/alphadengas-removebg-preview.png"
                     width={80}
                     height={50}
                   />
@@ -140,7 +140,7 @@ const Home = () => {
               <div className={styles.sectorWrap}>
                 <div>
                   <Image
-                    src="/assets/images/alphadentech.jpg"
+                    src="/assets/images/alphadentech-removebg-preview.png"
                     width={80}
                     height={50}
                   />
@@ -166,7 +166,7 @@ const Home = () => {
               <div className={styles.sectorWrap}>
                 <div>
                   <Image
-                    src="/assets/images/alphadengreen.jpeg"
+                    src="/assets/images/alphadengreen-removebg-preview.png"
                     width={80}
                     height={50}
                   />
@@ -193,7 +193,7 @@ const Home = () => {
               <div className={styles.sectorWrap}>
                 <div>
                   <Image
-                    src="/assets/images/alphalogo.jpeg"
+                    src="/assets/images/alphalogo-removebg-preview.png"
                     width={80}
                     height={50}
                   />
@@ -218,7 +218,7 @@ const Home = () => {
               <div className={styles.sectorWrap}>
                 <div>
                   <Image
-                    src="/assets/images/alphalogo.jpeg"
+                    src="/assets/images/alphalogo-removebg-preview.png"
                     width={80}
                     height={50}
                   />
@@ -244,7 +244,7 @@ const Home = () => {
               <div className={styles.sectorWrap}>
                 <div>
                   <Image
-                    src="/assets/images/alphalogo.jpeg"
+                    src="/assets/images/alphalogo-removebg-preview.png"
                     width={80}
                     height={50}
                   />
@@ -411,7 +411,7 @@ const Home = () => {
                 </div>
                 <div>
                   <h5>Email:</h5>
-                  <p>info@alphadenenergy.com</p>
+                  <p>info@alphadenholding.com</p>
                 </div>
                 <div>
                   <h5>Website:</h5>

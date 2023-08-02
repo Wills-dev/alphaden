@@ -33,7 +33,7 @@ const page = () => {
                 </div>
                 <div>
                   <h5>Email:</h5>
-                  <p>info@alphadenenergy.com</p>
+                  <p>info@alphadenholding.com</p>
                 </div>
                 <div>
                   <h5>Website:</h5>

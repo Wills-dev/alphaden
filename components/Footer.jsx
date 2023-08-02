@@ -17,7 +17,7 @@ const Footer = () => {
                   Marwa Roundabout, Lekki Phase 1, Lagos State, Nigeria.
                 </p>
                 <p>+(234) 0909-933-3222</p>
-                <p>info@alphadenenergy.com</p>
+                <p>info@alphadenholding.com</p>
                 <div className="footerSocial">
                   <Link href="twitter.com/">
                     <Image
@@ -61,7 +61,7 @@ const Footer = () => {
                   No 36 Trans Amadi Layout, Port Harcourt, Rivers State,
                   Nigeria.
                 </p>
-                <p>info@alphadenenergy.com</p>
+                <p>info@alphadenholding.com</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12">
@@ -71,7 +71,7 @@ const Footer = () => {
                   #302, 42, Geojejungang-ro,15-Gil, Geoje-si, Kyeongsangnam-do,
                   Republic of Korea
                 </p>
-                <p>info@alphadenenergy.com</p>
+                <p>info@alphadenholding.com</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 col-12">
