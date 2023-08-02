@@ -35,10 +35,9 @@ const Home = () => {
             </h2>
 
             <p>
-              Fueling Growth and Innovation Across Sectors as the header on the
-              hero section Alphaden Holdings stands at the forefront of
-              transformative change, spearheading innovation and sustainable
-              growth in a rapidly evolving global landscape.
+              Alphaden Holdings is a prominent and dynamic multinational holding
+              company, boasting a diverse portfolio of subsidiaries operating
+              across several key sectors.
             </p>
             <Link
               className={styles.button}
