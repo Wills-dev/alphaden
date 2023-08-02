@@ -135,7 +135,7 @@ const NavBar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Alphaden Gas
+                  Alphaden Energy
                 </a>
               </li>
               <li>
@@ -144,9 +144,10 @@ const NavBar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Alphaden Energy
+                  Alphaden Gas
                 </a>
               </li>
+
               <li>
                 <a
                   href="https://alphadenenergy.com"
@@ -240,7 +241,7 @@ const NavBar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Alphaden Gas
+                  Alphaden Energy
                 </a>
               </li>
               <li>
@@ -249,7 +250,7 @@ const NavBar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Alphaden Energy
+                  Alphaden Gas
                 </a>
               </li>
               <li>
