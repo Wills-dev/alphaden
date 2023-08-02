@@ -39,13 +39,13 @@ const Home = () => {
               company, boasting a diverse portfolio of subsidiaries operating
               across several key sectors.
             </p>
-            <Link
+            {/* <Link
               className={styles.button}
               href="/about-us"
               alt="About alphaden"
             >
               More information
-            </Link>
+            </Link> */}
           </div>
         </div>
       </header>
@@ -102,8 +102,36 @@ const Home = () => {
 
           <div className="  col-12 ">
             <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector8}`}>
+                <h3>Gas services</h3>
+              </div>
+              <p>
+                Alphaden Gas Subsidiary is a leading name in the oil and gas
+                industry, specializing in developing comprehensive midstream and
+                downstream solutions. With our cutting-edge expertise and
+                dedication to innovation, we have cemented our position as a
+                trusted partner for companies seeking top-notch gas processing
+                services and hydrogen production capabilities. Our expertise in
+                gas processing sets us apart in the industry.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphadengas-removebg-preview.png"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Alphaden Gas</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className="  col-12 ">
+            <div className={styles.ourValueWrapper}>
               <div className={`${styles.sectorCtn} ${styles.sector2}`}>
-                <h3>Technology:</h3>
+                <h3>Technology</h3>
               </div>
               <p>
                 Alphaden's Technology subsidiary, Alphaden Technologies, leads
@@ -128,7 +156,7 @@ const Home = () => {
           <div className=" col-12 ">
             <div className={styles.ourValueWrapper}>
               <div className={`${styles.sectorCtn} ${styles.sector5}`}>
-                <h3>Green Energy:</h3>
+                <h3>Green Energy</h3>
               </div>
               <p>
                 Alphaden's Green Energy subsidiary, Alphaden Green Energies, is

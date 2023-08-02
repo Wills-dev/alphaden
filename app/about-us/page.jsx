@@ -85,13 +85,14 @@ const page = () => {
                   contributing to a greener future.
                 </li>
                 <li>
-                  <span>Marine Services :</span> The Marine Services subsidiary
-                  excels in providing a wide array of maritime solutions, within
-                  the oil and gas services sector, logistics, vessel management,
-                  and offshore support services. With an emphasis on safety,
-                  efficiency, and environmental responsibility, this segment
-                  caters to West African clients in the maritime industry while
-                  navigating complex challenges.
+                  <span>Gas Services :</span> Alphaden Gas Subsidiary is a
+                  leading name in the oil and gas industry, specializing in
+                  developing comprehensive midstream and downstream solutions.
+                  With our cutting-edge expertise and dedication to innovation,
+                  we have cemented our position as a trusted partner for
+                  companies seeking top-notch gas processing services and
+                  hydrogen production capabilities. Our expertise in gas
+                  processing sets us apart in the industry.
                 </li>
                 <li>
                   <span>Technology :</span> In the fast-paced world of
@@ -113,6 +114,15 @@ const page = () => {
                   micro-grid development, battery power systems, and sustainable
                   development initiatives. The segment strives to mitigate the
                   impact of climate change and foster a greener planet.
+                </li>
+                <li>
+                  <span>Marine Services :</span> The Marine Services subsidiary
+                  excels in providing a wide array of maritime solutions, within
+                  the oil and gas services sector, logistics, vessel management,
+                  and offshore support services. With an emphasis on safety,
+                  efficiency, and environmental responsibility, this segment
+                  caters to West African clients in the maritime industry while
+                  navigating complex challenges.
                 </li>
                 <li>
                   <span>Entertainment :</span> The Entertainment division within
