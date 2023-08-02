@@ -99,31 +99,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 ">
-            <div className={styles.ourValueWrapper}>
-              <div className={`${styles.sectorCtn} ${styles.sector6}`}>
-                <h3>Marine Services:</h3>
-              </div>
-              <p>
-                Alphaden's Marine Services subsidiary excels in delivering
-                diverse maritime solutions, including oil and gas services,
-                logistics, vessel management, and offshore support. Prioritizing
-                safety, efficiency, and environmental responsibility, it serves
-                West African clients, tackling complex industry challenges.
-              </p>
-              <div className={styles.sectorWrap}>
-                <div>
-                  <Image
-                    src="/assets/images/alphadengas-removebg-preview.png"
-                    width={80}
-                    height={50}
-                  />
-                </div>
 
-                <h5>Alphaden Gas</h5>
-              </div>
-            </div>
-          </div>
           <div className="  col-12 ">
             <div className={styles.ourValueWrapper}>
               <div className={`${styles.sectorCtn} ${styles.sector2}`}>
@@ -172,6 +148,31 @@ const Home = () => {
                 </div>
 
                 <h5>Alphaden Green</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 ">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector6}`}>
+                <h3>Marine Services:</h3>
+              </div>
+              <p>
+                Alphaden's Marine Services subsidiary excels in delivering
+                diverse maritime solutions, including oil and gas services,
+                logistics, vessel management, and offshore support. Prioritizing
+                safety, efficiency, and environmental responsibility, it serves
+                West African clients, tackling complex industry challenges.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphalogo-removebg-preview.png"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Alphaden Marine</h5>
               </div>
             </div>
           </div>
