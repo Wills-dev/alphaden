@@ -219,6 +219,7 @@
   font-weight: 100;
   font-size: 15px;
   text-transform: uppercase;
+  margin-left: 6px;
 }
 
 .ourValueWrapper p {
@@ -700,7 +701,7 @@
 }
 
 .newsCtn .newsContent p:first-child {
-  font-size: 15px;
+  font-size: 13px;
   transition: all 0.3s ease-out;
 }
 
@@ -771,6 +772,10 @@
   .sectorCtn h3 {
     font-size: 40px;
     margin-left: 20px;
+  }
+
+  .newsCtn .newsContent p:first-child {
+    font-size: 15px;
   }
 
   .newsCtn .newsContent a {
