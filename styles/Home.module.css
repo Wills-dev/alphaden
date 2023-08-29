@@ -744,6 +744,17 @@
   margin-left: 10px;
 }
 
+@media only screen and (min-width: 770px) {
+  .sectorCtn {
+    height: 600px;
+  }
+
+  .sectorCtn h3 {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+}
+
 @media only screen and (min-width: 46.875em) {
   .header .headerWrapper {
     margin-left: 60px;
@@ -783,15 +794,6 @@
 
   .aboutUs .aboutUsContent h4 {
     font-size: 20px;
-  }
-
-  .sectorCtn {
-    height: 600px;
-  }
-
-  .sectorCtn h3 {
-    font-size: 40px;
-    margin-left: 20px;
   }
 
   .newsCtn .newsContent p:first-child {

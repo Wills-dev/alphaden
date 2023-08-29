@@ -30,6 +30,16 @@
   margin-left: 10px;
 }
 
+.deactivate {
+  display: none;
+  height: 100%;
+}
+
+.activate {
+  display: block;
+  height: 100%;
+}
+
 .aboutMainTitleCtn {
   /* background: linear-gradient(to right, #343434, #f54444); */
   background-color: #f0f0f0;
@@ -233,5 +243,13 @@
   .react-slideshow-container span {
     font-size: 40px;
     margin-left: 20px;
+  }
+
+  .deactivate {
+    display: block;
+  }
+
+  .activate {
+    display: none;
   }
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import styles from "../styles/Home.module.css";
 import "../styles/about-us.css";
 import Link from "next/link";
@@ -12,22 +12,6 @@ import "aos/dist/aos.css";
 import "../styles/about-us.css";
 
 const Home = () => {
-  const [screenWidth, setScreenWidth] = useState(0);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setScreenWidth(window.innerWidth);
-    };
-
-    if (typeof window !== "undefined") {
-      window.addEventListener("resize", handleResize);
-
-      return () => {
-        window.removeEventListener("resize", handleResize);
-      };
-    }
-  }, []);
-
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -135,78 +119,288 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="container mt-5">
+      <section className="container deactivate mt-5">
         <div className="row my-5">
           <div className=" col-12 " id="energy">
             <div className={styles.ourValueWrapper}>
               <div className={`${styles.sectorCtn} ${styles.sector1}`}>
-                {screenWidth < 770 ? (
-                  <div className="row">
-                    <div className="col-12 px-0">
-                      <Slide>
-                        {slideImages2.map((slideImage, index) => (
-                          <div key={index}>
-                            <div
-                              style={{
-                                backgroundImage: `url(${slideImage.url})`,
-                                backgroundRepeat: "no-repeat",
-                                backgroundPosition: "center",
-                                backgroundSize: "cover",
-                                position: "relative",
-                              }}
-                              className={styles.energyCtn}
-                            >
-                              <span>{slideImage.caption}</span>
-                            </div>
+                <div className="row">
+                  <div className="col-md-6 col-12 px-0">
+                    <Slide>
+                      {slideImages.map((slideImage, index) => (
+                        <div key={index}>
+                          <div
+                            style={{
+                              backgroundImage: `url(${slideImage.url})`,
+                              backgroundRepeat: "no-repeat",
+                              backgroundPosition: "center",
+                              backgroundSize: "cover",
+                              position: "relative",
+                            }}
+                            className={styles.energyCtn}
+                          >
+                            <span>{slideImage.caption}</span>
                           </div>
-                        ))}
-                      </Slide>
-                    </div>
+                        </div>
+                      ))}
+                    </Slide>
                   </div>
-                ) : (
-                  <div className="row">
-                    <div className="col-md-6 col-12 px-0">
-                      <Slide>
-                        {slideImages.map((slideImage, index) => (
-                          <div key={index}>
-                            <div
-                              style={{
-                                backgroundImage: `url(${slideImage.url})`,
-                                backgroundRepeat: "no-repeat",
-                                backgroundPosition: "center",
-                                backgroundSize: "cover",
-                                position: "relative",
-                              }}
-                              className={styles.energyCtn}
-                            >
-                              <span>{slideImage.caption}</span>
-                            </div>
+                  <div className="col-md-6 col-12 px-0">
+                    <Slide>
+                      {slideImages1.map((slideImage, index) => (
+                        <div key={index}>
+                          <div
+                            style={{
+                              backgroundImage: `url(${slideImage.url})`,
+                              backgroundRepeat: "no-repeat",
+                              backgroundPosition: "center",
+                              backgroundSize: "cover",
+                              position: "relative",
+                            }}
+                            className={styles.energyCtn}
+                          >
+                            <span>{slideImage.caption}</span>
                           </div>
-                        ))}
-                      </Slide>
-                    </div>
-                    <div className="col-md-6 col-12 px-0">
-                      <Slide>
-                        {slideImages1.map((slideImage, index) => (
-                          <div key={index}>
-                            <div
-                              style={{
-                                backgroundImage: `url(${slideImage.url})`,
-                                backgroundRepeat: "no-repeat",
-                                backgroundPosition: "center",
-                                backgroundSize: "cover",
-                                position: "relative",
-                              }}
-                              className={styles.energyCtn}
-                            >
-                              <span>{slideImage.caption}</span>
-                            </div>
-                          </div>
-                        ))}
-                      </Slide>
-                    </div>
+                        </div>
+                      ))}
+                    </Slide>
                   </div>
-                )}
+                </div>
+              </div>
+              <p>
+                Alphaden Energy excels in providing comprehensive solutions for
+                major infrastructure and construction projects. It specializes
+                in engineering design, procurement, efficient supply chain
+                management, construction, and installation services. By
+                leveraging cutting-edge technologies and fostering a culture of
+                excellence, this segment delivers world-class projects on
+                schedule and within budget, catering to diverse clients
+                globally.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphadenenergy-removebg-preview.png"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Alphaden Energy</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className="  col-12 " id="epci">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector8}`}>
+                <h3>Gas services</h3>
+              </div>
+              <p>
+                Alphaden Gas Subsidiary is a leading name in the oil and gas
+                industry, specializing in developing comprehensive midstream and
+                downstream solutions. With our cutting-edge expertise and
+                dedication to innovation, we have cemented our position as a
+                trusted partner for companies seeking top-notch gas processing
+                services and hydrogen production capabilities. Our expertise in
+                gas processing sets us apart in the industry.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphadengas-removebg-preview.png"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Alphaden Gas</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className="  col-12 " id="technology">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector2}`}>
+                <h3>Technology</h3>
+              </div>
+              <p>
+                Alphaden's Technology subsidiary, Alphaden Technologies, leads
+                in innovation, offering cutting-edge software, hardware, and
+                emerging technology solutions. Through research and development,
+                it disrupts markets in various sectors, spearheading digital
+                transformation.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphadentech-removebg-preview.png"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Alphaden Technology</h5>
+              </div>
+            </div>
+          </div>
+          <div className=" col-12 ">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector5}`}>
+                <h3>Green Energy</h3>
+              </div>
+              <p>
+                Alphaden's Green Energy subsidiary, Alphaden Green Energies, is
+                dedicated to environmental sustainability through eco-friendly
+                solutions. It focuses on renewable energy projects,
+                energy-efficient technologies, micro-grid development, battery
+                power systems, and sustainable initiatives, combating climate
+                change and promoting a greener planet.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphadengreen-removebg-preview.png"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Alphaden Green</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 ">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector6}`}>
+                <h3>Alpha Marine:</h3>
+              </div>
+              <p>
+                Alpha Marine subsidiary excels in delivering diverse maritime
+                solutions, including oil and gas services, logistics, vessel
+                management, and offshore support. Prioritizing safety,
+                efficiency, and environmental responsibility, it serves West
+                African clients, tackling complex industry challenges.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphalogo-removebg-preview.png"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Alpha Marine</h5>
+              </div>
+            </div>
+          </div>
+          <div className=" col-12 " id="food&beverage">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector3}`}>
+                <h3>Food and Beverage:</h3>
+              </div>
+              <p>
+                Good Life Foods and Beverage, a subsidiary of Alphaden Holdings,
+                is renowned for its quality products and services. It includes
+                bakery, food manufacturing, distribution, water bottling, and
+                beverage distribution. Focused on delivery excellence and
+                consumer satisfaction, this segment adapts to evolving
+                preferences and invests in sustainable practices for a healthier
+                food ecosystem.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphalogo-removebg-preview.png"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Good Life Foods</h5>
+              </div>
+            </div>
+          </div>
+          <div className=" col-12 ">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector4}`}>
+                <h3>Entertainment:</h3>
+              </div>
+              <p>
+                Parc Management produces captivating content across media
+                platforms, including movies, digital media, gaming, and theme
+                parks. It aims to captivate global audiences with innovative
+                entertainment, focusing on the sub-Saharan African market.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphalogo-removebg-preview.png"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5>Parc Management</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className=" col-12 ">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector7}`}>
+                <h3>Healthcare:</h3>
+              </div>
+              <p>
+                Ocenture Telehealth Care is dedicated to bolstering well-being
+                through cutting-edge telemedicine technologies, research,
+                pharmaceuticals, and digital healthcare services. The company
+                endeavors to augment healthcare accessibility, advance medical
+                knowledge, and foster a healthier society.
+              </p>
+              <div className={styles.sectorWrap}>
+                <div>
+                  <Image
+                    src="/assets/images/alphalogo-removebg-preview.png"
+                    width={80}
+                    height={50}
+                  />
+                </div>
+
+                <h5> Ocenture Telehealth Care</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="container activate mt-5">
+        <div className="row my-5">
+          <div className=" col-12 " id="energy">
+            <div className={styles.ourValueWrapper}>
+              <div className={`${styles.sectorCtn} ${styles.sector1}`}>
+                <div className="row">
+                  <div className="col-12 px-0">
+                    <Slide>
+                      {slideImages2.map((slideImage, index) => (
+                        <div key={index}>
+                          <div
+                            style={{
+                              backgroundImage: `url(${slideImage.url})`,
+                              backgroundRepeat: "no-repeat",
+                              backgroundPosition: "center",
+                              backgroundSize: "cover",
+                              position: "relative",
+                            }}
+                            className={styles.energyCtn}
+                          >
+                            <span>{slideImage.caption}</span>
+                          </div>
+                        </div>
+                      ))}
+                    </Slide>
+                  </div>
+                </div>
               </div>
               <p>
                 Alphaden Energy excels in providing comprehensive solutions for

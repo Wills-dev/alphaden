@@ -13,10 +13,10 @@ const Footer = () => {
               <div className="footerCtn">
                 <h4>Corporate Office</h4>
                 <p>
-                  Plot 23 Furo Ezimora Street, Off Adewunmi Adebimpe Drive, Off
-                  Marwa Roundabout, Lekki Phase 1, Lagos State, Nigeria.
+                  4th/5th floor, 11A Oko Owo street, Victoria Island, Lagos,
+                  Nigeria.
                 </p>
-                <p>+(234) 0909-933-3222</p>
+                <p>+(234) 0700 257 4233</p>
                 <p>info@alphadenholding.com</p>
                 <div className="footerSocial">
                   <Link href="twitter.com/">
