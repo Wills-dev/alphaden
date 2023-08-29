@@ -29,6 +29,7 @@ const page = () => {
                 <div>
                   <h5>Phone:</h5>
                   <p>+(234) 0700 257 4233</p>
+                  <p>+(234) 0700 ALPHADEN</p>
                 </div>
                 <div>
                   <h5>Email:</h5>

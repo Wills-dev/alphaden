@@ -17,6 +17,7 @@ const Footer = () => {
                   Nigeria.
                 </p>
                 <p>+(234) 0700 257 4233</p>
+                <p>+(234) 0700 ALPHADEN</p>
                 <p>info@alphadenholding.com</p>
                 <div className="footerSocial">
                   <Link href="twitter.com/">

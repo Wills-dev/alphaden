@@ -139,6 +139,7 @@ const Home = () => {
                             }}
                             className={styles.energyCtn}
                           >
+                            <p></p>
                             <span>{slideImage.caption}</span>
                           </div>
                         </div>
@@ -159,6 +160,7 @@ const Home = () => {
                             }}
                             className={styles.energyCtn}
                           >
+                            <p></p>
                             <span>{slideImage.caption}</span>
                           </div>
                         </div>
@@ -325,6 +327,7 @@ const Home = () => {
           <div className=" col-12 ">
             <div className={styles.ourValueWrapper}>
               <div className={`${styles.sectorCtn} ${styles.sector4}`}>
+                <p></p>
                 <h3>Entertainment:</h3>
               </div>
               <p>
@@ -394,6 +397,7 @@ const Home = () => {
                             }}
                             className={styles.energyCtn}
                           >
+                            <p></p>
                             <span>{slideImage.caption}</span>
                           </div>
                         </div>
@@ -560,6 +564,7 @@ const Home = () => {
           <div className=" col-12 ">
             <div className={styles.ourValueWrapper}>
               <div className={`${styles.sectorCtn} ${styles.sector4}`}>
+                <p></p>
                 <h3>Entertainment:</h3>
               </div>
               <p>
@@ -1019,6 +1024,7 @@ const Home = () => {
                 <div>
                   <h5>Phone:</h5>
                   <p>+(234) 0700 257 4233</p>
+                  <p>+(234) 0700 ALPHADEN</p>
                 </div>
                 <div>
                   <h5>Email:</h5>

@@ -163,6 +163,14 @@
   width: 100% !important;
 }
 
+.sector4 p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* .sector1 {
   background-image: url("/assets/images/energy.jpeg");
 } */
