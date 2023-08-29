@@ -42,19 +42,19 @@ const Home = () => {
 
   const slideImages2 = [
     {
-      url: "/assets/images/energy.jpeg",
+      url: "/assets/images/transport.jpg",
       caption: "How energy is transported",
     },
     {
-      url: "/assets/images/background.jpeg",
+      url: "/assets/images/banner1.jpg",
       caption: "How energy is consumed",
     },
     {
-      url: "/assets/images/food.jpeg",
+      url: "/assets/images/stored.jpg",
       caption: "How energy is stored",
     },
     {
-      url: "/assets/images/food.jpg",
+      url: "/assets/images/produced.jpg",
       caption: "How energy is produced",
     },
   ];
