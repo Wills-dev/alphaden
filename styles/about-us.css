@@ -1,3 +1,35 @@
+.react-slideshow-container,
+.react-slideshow-wrapper {
+  height: 300px !important;
+}
+
+.react-slideshow-wrapper .images-wrap {
+  height: 100%;
+}
+
+.react-slideshow-wrapper .images-wrap div {
+  height: 100% !important;
+}
+
+.react-slideshow-container button {
+  display: none !important;
+}
+
+.react-slideshow-container span {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 21px;
+  display: block;
+  transition: all 0.2s ease-out 0s;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 10px;
+}
+
 .aboutMainTitleCtn {
   /* background: linear-gradient(to right, #343434, #f54444); */
   background-color: #f0f0f0;
@@ -188,8 +220,18 @@
   margin-bottom: 0;
 }
 
-@media only screen and (min-width: 46.875em) {
+@media only screen and (min-width: 770px) {
   .aboutMainOpacityCtn h1 {
     font-size: 18px;
+  }
+
+  .react-slideshow-container,
+  .react-slideshow-wrapper {
+    height: 600px !important;
+  }
+
+  .react-slideshow-container span {
+    font-size: 40px;
+    margin-left: 20px;
   }
 }

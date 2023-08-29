@@ -22,14 +22,13 @@ const page = () => {
                 <div>
                   <h5>Address:</h5>
                   <p>
-                    {" "}
-                    Plot 23 Furo Ezimora Street, Off Adewunmi Adebimpe Drive,
-                    Off Marwa Roundabout, Lekki Phase 1, Lagos State, Nigeria.
+                    4th/5th floor, 11A Oko Owo street, Victoria Island, Lagos,
+                    Nigeria.
                   </p>
                 </div>
                 <div>
                   <h5>Phone:</h5>
-                  <p>+(234) 0909-933-3222</p>
+                  <p>+(234) 0700 257 4233</p>
                 </div>
                 <div>
                   <h5>Email:</h5>

@@ -1,19 +1,78 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
+import "../styles/about-us.css";
 import Link from "next/link";
 import Image from "next/image";
-import CountUp from "react-countup";
+import { Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../styles/about-us.css";
 
 const Home = () => {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+
+  const slideImages = [
+    {
+      url: "/assets/images/transport.jpg",
+      caption: "How energy is transported",
+    },
+    {
+      url: "/assets/images/stored.jpg",
+      caption: "How energy is stored",
+    },
+  ];
+
+  const slideImages1 = [
+    {
+      url: "/assets/images/banner1.jpg",
+      caption: "How energy is consumed",
+    },
+
+    {
+      url: "/assets/images/produced.jpg",
+      caption: "How energy is produced",
+    },
+  ];
+
+  const slideImages2 = [
+    {
+      url: "/assets/images/energy.jpeg",
+      caption: "How energy is transported",
+    },
+    {
+      url: "/assets/images/background.jpeg",
+      caption: "How energy is consumed",
+    },
+    {
+      url: "/assets/images/food.jpeg",
+      caption: "How energy is stored",
+    },
+    {
+      url: "/assets/images/food.jpg",
+      caption: "How energy is produced",
+    },
+  ];
+
   return (
     <div className="main-ctn">
       <header className={styles.header}>
@@ -79,7 +138,73 @@ const Home = () => {
           <div className=" col-12 " id="energy">
             <div className={styles.ourValueWrapper}>
               <div className={`${styles.sectorCtn} ${styles.sector1}`}>
-                <h3>Energy</h3>
+                {screenWidth < 770 ? (
+                  <div className="row">
+                    <div className="col-12 px-0">
+                      <Slide>
+                        {slideImages2.map((slideImage, index) => (
+                          <div key={index}>
+                            <div
+                              style={{
+                                backgroundImage: `url(${slideImage.url})`,
+                                backgroundRepeat: "no-repeat",
+                                backgroundPosition: "center",
+                                backgroundSize: "cover",
+                                position: "relative",
+                              }}
+                              className={styles.energyCtn}
+                            >
+                              <span>{slideImage.caption}</span>
+                            </div>
+                          </div>
+                        ))}
+                      </Slide>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="row">
+                    <div className="col-md-6 col-12 px-0">
+                      <Slide>
+                        {slideImages.map((slideImage, index) => (
+                          <div key={index}>
+                            <div
+                              style={{
+                                backgroundImage: `url(${slideImage.url})`,
+                                backgroundRepeat: "no-repeat",
+                                backgroundPosition: "center",
+                                backgroundSize: "cover",
+                                position: "relative",
+                              }}
+                              className={styles.energyCtn}
+                            >
+                              <span>{slideImage.caption}</span>
+                            </div>
+                          </div>
+                        ))}
+                      </Slide>
+                    </div>
+                    <div className="col-md-6 col-12 px-0">
+                      <Slide>
+                        {slideImages1.map((slideImage, index) => (
+                          <div key={index}>
+                            <div
+                              style={{
+                                backgroundImage: `url(${slideImage.url})`,
+                                backgroundRepeat: "no-repeat",
+                                backgroundPosition: "center",
+                                backgroundSize: "cover",
+                                position: "relative",
+                              }}
+                              className={styles.energyCtn}
+                            >
+                              <span>{slideImage.caption}</span>
+                            </div>
+                          </div>
+                        ))}
+                      </Slide>
+                    </div>
+                  </div>
+                )}
               </div>
               <p>
                 Alphaden Energy excels in providing comprehensive solutions for
@@ -323,7 +448,7 @@ const Home = () => {
                 <div className={styles.serviceWrapper}>
                   <div className={styles.imgCtn}>
                     <Image
-                      src="/assets/images/alphaGas.jpg"
+                      src="/assets/images/engg.jpeg"
                       alt="Alphaden group"
                       width={300}
                       height={220}
@@ -421,100 +546,55 @@ const Home = () => {
       </section>
 
       <section className="container">
-        <div className={styles.ceoWrap}>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
-            sequi similique velit neque blanditiis doloremque quos qui numquam,
-            error odit, totam doloribus ut at! Officia esse dolorum, harum optio
-            sapiente dolore ullam qui! Accusantium culpa officiis minima fuga
-            porro commodi quos illo ducimus, animi est, ratione dolorum vero ad
-            nulla. Explicabo necessitatibus praesentium itaque id recusandae
-            adipisci, minima laborum temporibus deserunt quo quasi pariatur.
-            Sapiente, quae! Repellendus voluptates, adipisci consectetur
-            nesciunt odit reprehenderit, ab repellat amet sint quos reiciendis
-            hic vel eveniet explicabo tempora molestiae laudantium quia
-            necessitatibus inventore expedita provident quis molestias ut aut!
-            Doloremque nisi odit asperiores numquam cum nam consequatur velit
-            dolores voluptas. Iusto non ea ipsa ducimus dolorem, labore earum
-            est corporis blanditiis at illo eos perspiciatis, impedit possimus
-            praesentium eveniet hic sapiente cum explicabo. Aliquid assumenda
-            necessitatibus nisi quod veniam quibusdam eum quaerat ducimus
-            delectus quisquam ipsam accusamus similique fugiat eaque veritatis
-            ut soluta quis nihil reiciendis quas voluptates, harum pariatur
-            blanditiis possimus! Animi quaerat a nesciunt cupiditate officia
-            distinctio corporis debitis necessitatibus exercitationem esse
-            cumque nostrum dolorum perferendis numquam aliquid sapiente,
-            mollitia laborum est. Obcaecati nobis aliquid vitae optio vero
-            necessitatibus rerum esse odio temporibus? Corporis inventore facere
-            nesciunt quod labore dignissimos hic repudiandae, at sit doloremque.
-            Tenetur eius soluta doloribus accusamus, porro libero architecto
-            cumque ipsa possimus similique dolorum aperiam ipsum id ut? Saepe
-            labore, excepturi obcaecati magnam consequuntur, hic odit alias
-            temporibus sint nulla natus, suscipit rem ipsa accusamus? Quod
-            reprehenderit recusandae odit, eaque exercitationem tenetur ducimus
-            amet voluptatibus asperiores omnis corrupti id vel porro architecto
-            ipsa et laborum voluptates blanditiis. Maxime hic amet architecto
-            mollitia. Incidunt at non voluptas laboriosam sunt. Dignissimos
-            minus, eius, maxime, blanditiis placeat magnam velit dolorum tempore
-            ab voluptas amet dolorem facilis corporis cupiditate quod eaque
-            obcaecati facere quo. A voluptates error quasi quos iusto magnam
-            reiciendis accusamus cum quidem amet. Dolore quos exercitationem
-            amet numquam obcaecati quidem sed perspiciatis velit maxime!
-            Nesciunt hic quibusdam eligendi aliquid tempore, ea quisquam. Minima
-            natus delectus dolore ullam voluptas ab saepe optio ducimus,
-            mollitia dolorem veniam. Facere perferendis beatae ipsa, ipsum
-            temporibus repudiandae? Fuga, ex nobis? Molestias, maxime libero
-            ipsum ea laboriosam quis laborum accusamus fugiat est, magni ex
-            reprehenderit, a nisi! Ea ipsam molestiae harum cupiditate delectus
-            optio mollitia provident. Voluptates, dolore atque voluptatibus
-            recusandae, a maxime, ducimus earum quae accusamus qui blanditiis
-            adipisci placeat voluptatem consequuntur magni illum unde iste
-            tempora veniam quaerat inventore pariatur reprehenderit id debitis.
-            Quas officiis consequuntur inventore quaerat? Nihil placeat quis
-            officiis asperiores. Ipsam praesentium minus et nemo vitae fugit
-            expedita debitis commodi itaque nihil. Nesciunt aliquid, ducimus
-            molestias praesentium atque amet aut recusandae. Rem commodi
-            similique animi impedit, sed fugiat cumque quis beatae reprehenderit
-            iusto accusamus dicta ducimus veniam vel nisi. Dolorum aspernatur
-            nobis quam ad odit at illum asperiores, inventore placeat iste quas
-            pariatur fugit tempore quos illo recusandae earum officiis corrupti
-            dicta, vitae expedita dolor et corporis. Culpa similique magni
-            tempora omnis dignissimos nihil vitae a, mollitia optio incidunt
-            aliquid aperiam ad! Odit blanditiis, voluptatem eaque animi
-            perferendis accusantium iure perspiciatis laudantium ipsam, sapiente
-            ipsum neque voluptas, voluptate dolorem quibusdam optio cupiditate
-            aut quam ducimus sit mollitia repellat vitae ullam quisquam.
-            Accusantium vitae sapiente esse architecto neque minus, optio quia
-            omnis maiores ab praesentium eum quaerat, quidem porro alias
-            tempore! Architecto nemo reprehenderit odio, est unde natus labore
-            blanditiis eligendi illo, mollitia consectetur quidem iure voluptate
-            deserunt dolor esse facilis necessitatibus dolorum inventore officia
-            nobis laborum eos dolorem libero! Enim neque repellat, perspiciatis
-            dolorem veniam recusandae voluptatum labore, ipsum, voluptatem
-            assumenda soluta ratione totam sunt natus autem nam molestias
-            aperiam aut qui? Qui provident ex illum quibusdam cumque velit. Id,
-            illo! Ut atque at illum quos assumenda quasi esse, est a quia fugiat
-            debitis porro ducimus architecto eos similique non dolore, sunt odio
-            pariatur beatae culpa sed quaerat amet? Voluptatibus architecto
-            cupiditate unde impedit nesciunt, obcaecati perferendis consectetur
-            vero cum debitis porro illo, reiciendis distinctio repellat quae
-            deserunt! Dolorum corporis nihil fuga vel! Voluptas, molestiae et!
-            Quam accusantium itaque atque modi quis, dolore reiciendis tenetur
-            harum libero! Iusto commodi temporibus error magni voluptatum a
-            necessitatibus maiores hic cupiditate, itaque, optio veritatis,
-            consequuntur sint quam quasi! Doloremque nam facilis porro sed harum
-            officiis, eos aliquam, obcaecati earum perferendis tempore tenetur
-            unde corrupti numquam? Asperiores consequatur ex vero, ipsum saepe
-            totam architecto, provident a fuga modi possimus cumque omnis porro
-            temporibus quisquam nihil molestias, hic ad explicabo expedita id?
-            Dignissimos, optio magni, commodi neque ex sapiente repellat illum
-            eius dolorem, incidunt aperiam beatae necessitatibus sunt architecto
-            quisquam vitae enim rerum obcaecati voluptates. Sed dicta rerum
-            quisquam mollitia.
-          </p>
-          <p className={styles.sign}>
-            CEO <br /> Charles Evan
-          </p>
+        <div className={styles.ceoCtn}>
+          <div className={styles.ceoWrap}>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
+              sequi similique velit neque blanditiis doloremque quos qui
+              numquam, error odit, totam doloribus ut at! Officia esse dolorum,
+              harum optio sapiente dolore ullam qui! Accusantium culpa officiis
+              minima fuga porro commodi quos illo ducimus, animi est, ratione
+              dolorum vero ad nulla. Explicabo necessitatibus praesentium itaque
+              id recusandae adipisci, minima laborum temporibus deserunt quo
+              quasi pariatur. Sapiente, quae! Repellendus voluptates, adipisci
+              consectetur nesciunt odit reprehenderit, ab repellat amet sint
+              quos reiciendis hic vel eveniet explicabo tempora molestiae
+              laudantium quia necessitatibus inventore expedita provident quis
+              molestias ut aut! Doloremque nisi odit asperiores numquam cum nam
+              consequatur velit dolores voluptas. <br /> <br /> Iusto non ea
+              ipsa ducimus dolorem, labore earum est corporis blanditiis at illo
+              eos perspiciatis, impedit possimus praesentium eveniet hic
+              sapiente cum explicabo. Aliquid assumenda necessitatibus nisi quod
+              veniam quibusdam eum quaerat ducimus delectus quisquam ipsam
+              accusamus similique fugiat eaque veritatis ut soluta quis nihil
+              reiciendis quas voluptates, harum pariatur blanditiis possimus!
+              Animi quaerat a nesciunt cupiditate officia distinctio corporis
+              debitis necessitatibus exercitationem esse cumque nostrum dolorum
+              perferendis numquam aliquid sapiente, mollitia laborum est.
+              Obcaecati nobis aliquid vitae optio vero necessitatibus rerum esse
+              odio temporibus? Corporis inventore facere nesciunt quod labore
+              dignissimos hic repudiandae, at sit doloremque. <br /> <br />
+              Tenetur eius soluta doloribus accusamus, porro libero architecto
+              cumque ipsa possimus similique dolorum aperiam ipsum id ut? Saepe
+              labore, excepturi obcaecati magnam consequuntur, hic odit alias
+              temporibus sint nulla natus, suscipit rem ipsa accusamus? Quod
+              reprehenderit recusandae odit, eaque exercitationem tenetur
+              ducimus amet voluptatibus asperiores omnis corrupti id vel porro
+              architecto ipsa et laborum voluptates blanditiis. Maxime hic amet
+              architecto mollitia. Incidunt at non voluptas laboriosam sunt.
+              Dignissimos minus, eius, maxime, blanditiis placeat magnam velit
+              dolorum tempore ab voluptas amet dolorem facilis corporis
+              cupiditate quod eaque obcaecati facere quo. A voluptates error
+              quasi quos iusto magnam reiciendis accusamus cum quidem amet.
+              Dolore quos exercitationem amet numquam obcaecati quidem sed
+              perspiciatis velit maxime! Nesciunt hic quibusdam eligendi aliquid
+              tempore, ea quisquam. Minima natus delectus dolore ullam voluptas
+              ab saepe optio ducimus, mollitia dolorem veniam.
+            </p>
+            <p className={styles.sign}>
+              CEO <br /> Charles Evan
+            </p>
+          </div>
         </div>
       </section>
 
@@ -736,13 +816,13 @@ const Home = () => {
                   <h5>Address:</h5>
                   <p>
                     {" "}
-                    Plot 23 Furo Ezimora Street, Off Adewunmi Adebimpe Drive,
-                    Off Marwa Roundabout, Lekki Phase 1, Lagos State, Nigeria.
+                    4th/5th floor, 11A Oko Owo street, Victoria Island, Lagos,
+                    Nigeria.
                   </p>
                 </div>
                 <div>
                   <h5>Phone:</h5>
-                  <p>+(234) 0909-933-3222</p>
+                  <p>+(234) 0700 257 4233</p>
                 </div>
                 <div>
                   <h5>Email:</h5>
