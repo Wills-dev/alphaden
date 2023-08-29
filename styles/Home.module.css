@@ -691,7 +691,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  margin-top: 20px;
+  margin-top: 0;
   font-family: "Mulish", sans-serif;
 }
 
@@ -771,5 +771,9 @@
   .sectorCtn h3 {
     font-size: 40px;
     margin-left: 20px;
+  }
+
+  .newsCtn .newsContent a {
+    margin-top: 20px;
   }
 }
