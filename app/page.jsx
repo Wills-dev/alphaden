@@ -12,18 +12,20 @@ import "aos/dist/aos.css";
 import "../styles/about-us.css";
 
 const Home = () => {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [screenWidth, setScreenWidth] = useState(0);
 
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
     };
 
-    window.addEventListener("resize", handleResize);
+    if (typeof window !== "undefined") {
+      window.addEventListener("resize", handleResize);
 
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
   }, []);
 
   useEffect(() => {
