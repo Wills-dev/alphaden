@@ -23,20 +23,36 @@ const Home = () => {
       caption: "How energy is transported",
     },
     {
+      url: "/assets/images/banner1.jpg",
+      caption: "How energy is consumed",
+    },
+    {
       url: "/assets/images/stored.jpg",
       caption: "How energy is stored",
+    },
+    {
+      url: "/assets/images/produced.jpg",
+      caption: "How energy is produced",
     },
   ];
 
   const slideImages1 = [
     {
-      url: "/assets/images/banner1.jpg",
-      caption: "How energy is consumed",
+      url: "/assets/images/transport1.jpg",
+      caption: "",
+    },
+    {
+      url: "/assets/images/consumed.jpg",
+      caption: "",
+    },
+    {
+      url: "/assets/images/stored1.jpg",
+      caption: "",
     },
 
     {
-      url: "/assets/images/produced.jpg",
-      caption: "How energy is produced",
+      url: "/assets/images/produced1.jpg",
+      caption: "",
     },
   ];
 
@@ -161,7 +177,9 @@ const Home = () => {
                             className={styles.energyCtn}
                           >
                             <p></p>
-                            <span>{slideImage.caption}</span>
+                            <span>
+                              {slideImage.caption && slideImage.caption}
+                            </span>
                           </div>
                         </div>
                       ))}
