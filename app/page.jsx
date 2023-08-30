@@ -827,20 +827,15 @@ const Home = () => {
               <div className={styles.newsCtn}>
                 <div className={`${styles.newsImg} ${styles.newsImg1}`}>
                   <Image
-                    src="/assets/images/food.jpeg"
+                    src="/assets/images/news.jpeg"
                     alt="Alphaden group"
                     width={140}
                     height={160}
                   />
                 </div>
                 <div className={styles.newsContent}>
-                  <a href="#">
-                    <p>
-                      Alphaden Holdings’ Non-Executive Director, Victor
-                      Osadolor, Appointed to Presidential Committee on Fiscal
-                      Policy and Tax Reforms
-                    </p>
-                    <p>August 11, 2023</p>
+                  <a href="https://www.linkedin.com/posts/energy-storage-news_tesla-energy-storage-demand-remains-significantly-activity-6925470255465025536-eunK?utm_source=share&utm_medium=member_ios">
+                    <p>The evolution of how we store and distribute energy</p>
                     <p>
                       READ MORE{" "}
                       <svg
@@ -873,52 +868,12 @@ const Home = () => {
                   />
                 </div>
                 <div className={styles.newsContent}>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/posts/alphaden_renewables-energy-sustainable-activity-6930641581859315712-CHuq?utm_source=share&utm_medium=member_ios">
                     <p>
-                      Alphaden Holdings’ Non-Executive Director, Victor
-                      Osadolor, Appointed to Presidential Committee on Fiscal
-                      Policy and Tax Reforms
+                      Alphaden Energy in the quest to transition out of fossil
+                      fuels into renewable energy.
                     </p>
-                    <p>August 11, 2023</p>
-                    <p>
-                      READ MORE{" "}
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="w-6 h-6"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
-                        />
-                      </svg>
-                    </p>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-12 mb-5">
-              <div className={styles.newsCtn}>
-                <div className={`${styles.newsImg} ${styles.newsImg1}`}>
-                  <Image
-                    src="/assets/images/foodd.jpeg"
-                    alt="Alphaden group"
-                    width={140}
-                    height={160}
-                  />
-                </div>
-                <div className={styles.newsContent}>
-                  <a href="#">
-                    <p>
-                      Alphaden Holdings’ Non-Executive Director, Victor
-                      Osadolor, Appointed to Presidential Committee on Fiscal
-                      Policy and Tax Reforms
-                    </p>
-                    <p>August 11, 2023</p>
+
                     <p>
                       READ MORE{" "}
                       <svg
@@ -944,20 +899,55 @@ const Home = () => {
               <div className={styles.newsCtn}>
                 <div className={`${styles.newsImg} ${styles.newsImg1}`}>
                   <Image
-                    src="/assets/images/food.jpg"
+                    src="/assets/images/news1.jpeg"
                     alt="Alphaden group"
                     width={140}
                     height={160}
                   />
                 </div>
                 <div className={styles.newsContent}>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/posts/alphaden_a-visit-by-the-new-chair-of-the-commonwealth-activity-6938943305648873472-57MC?utm_source=share&utm_medium=member_ios">
                     <p>
-                      Alphaden Holdings’ Non-Executive Director, Victor
-                      Osadolor, Appointed to Presidential Committee on Fiscal
-                      Policy and Tax Reforms
+                      The commonwealth business forum as an integral part of
+                      ALPHADEN’s Africa centric growth strategy
                     </p>
-                    <p>August 11, 2023</p>
+                    <p>
+                      READ MORE{" "}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+                        />
+                      </svg>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-12 mb-5">
+              <div className={styles.newsCtn}>
+                <div className={`${styles.newsImg} ${styles.newsImg1}`}>
+                  <Image
+                    src="/assets/images/news2.jpeg"
+                    alt="Alphaden group"
+                    width={140}
+                    height={160}
+                  />
+                </div>
+                <div className={styles.newsContent}>
+                  <a href="https://www.linkedin.com/posts/alphaden_africaninvestment-activity-6945053581620195328-zWmp?utm_source=share&utm_medium=member_ios">
+                    <p>
+                      An insightful day at the CHOGM RWANDA 2022 # chogm
+                      #africaninvestment
+                    </p>
                     <p>
                       READ MORE{" "}
                       <svg
@@ -983,20 +973,18 @@ const Home = () => {
               <div className={styles.newsCtn}>
                 <div className={`${styles.newsImg} ${styles.newsImg1}`}>
                   <Image
-                    src="/assets/images/health.jpeg"
+                    src="/assets/images/news3.jpeg"
                     alt="Alphaden group"
                     width={140}
                     height={160}
                   />
                 </div>
                 <div className={styles.newsContent}>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/posts/alphaden_the-prime-minister-of-uk-as-well-as-prince-activity-6945882586443329536-EjQb?utm_source=share&utm_medium=member_ios">
                     <p>
-                      Alphaden Holdings’ Non-Executive Director, Victor
-                      Osadolor, Appointed to Presidential Committee on Fiscal
-                      Policy and Tax Reforms
+                      The prime minister of UK as well as Prince Charles with
+                      other heads of states at the CHOGM 2022.
                     </p>
-                    <p>August 11, 2023</p>
                     <p>
                       READ MORE{" "}
                       <svg
