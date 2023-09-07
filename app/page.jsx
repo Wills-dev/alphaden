@@ -19,19 +19,19 @@ const Home = () => {
 
   const slideImages = [
     {
-      url: "/assets/images/energyTrans.jpeg",
-      caption: "How energy is transported",
-    },
-    {
       url: "/assets/images/energyCon.jpeg",
       caption: "How energy is consumed",
     },
     {
-      url: "/assets/images/energyStor.jpeg",
+      url: "/assets/images/onee.jpeg",
+      caption: "How energy is transported",
+    },
+    {
+      url: "/assets/images/stored22.jpg",
       caption: "How energy is stored",
     },
     {
-      url: "/assets/images/energyPro.jpeg",
+      url: "/assets/images/producedd22.jpg",
       caption: "How energy is produced",
     },
   ];
@@ -42,16 +42,16 @@ const Home = () => {
       caption: "",
     },
     {
-      url: "/assets/images/onee.jpeg",
-      caption: "",
-    },
-    {
       url: "/assets/images/oneee.jpeg",
       caption: "",
     },
 
     {
       url: "/assets/images/oneeee.jpeg",
+      caption: "",
+    },
+    {
+      url: "/assets/images/produceddd22.jpg",
       caption: "",
     },
   ];
