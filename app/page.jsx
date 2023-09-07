@@ -19,58 +19,58 @@ const Home = () => {
 
   const slideImages = [
     {
-      url: "/assets/images/transport.jpg",
+      url: "/assets/images/energyTrans.jpeg",
       caption: "How energy is transported",
     },
     {
-      url: "/assets/images/banner1.jpg",
+      url: "/assets/images/energyCon.jpeg",
       caption: "How energy is consumed",
     },
     {
-      url: "/assets/images/stored.jpg",
+      url: "/assets/images/energyStor.jpeg",
       caption: "How energy is stored",
     },
     {
-      url: "/assets/images/produced.jpg",
+      url: "/assets/images/energyPro.jpeg",
       caption: "How energy is produced",
     },
   ];
 
   const slideImages1 = [
     {
-      url: "/assets/images/transport1.jpg",
+      url: "/assets/images/one.png",
       caption: "",
     },
     {
-      url: "/assets/images/consumed.jpg",
+      url: "/assets/images/onee.jpeg",
       caption: "",
     },
     {
-      url: "/assets/images/stored1.jpg",
+      url: "/assets/images/oneee.jpeg",
       caption: "",
     },
 
     {
-      url: "/assets/images/produced1.jpg",
+      url: "/assets/images/oneeee.jpeg",
       caption: "",
     },
   ];
 
   const slideImages2 = [
     {
-      url: "/assets/images/transport.jpg",
+      url: "/assets/images/energyTrans.jpeg",
       caption: "How energy is transported",
     },
     {
-      url: "/assets/images/banner1.jpg",
+      url: "/assets/images/energyCon.jpeg",
       caption: "How energy is consumed",
     },
     {
-      url: "/assets/images/stored.jpg",
+      url: "/assets/images/energyStor.jpeg",
       caption: "How energy is stored",
     },
     {
-      url: "/assets/images/produced.jpg",
+      url: "/assets/images/energyPro.jpeg",
       caption: "How energy is produced",
     },
   ];
