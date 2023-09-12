@@ -19,7 +19,7 @@ const Home = () => {
 
   const slideImages = [
     {
-      url: "/assets/images/energyCon.jpeg",
+      url: "/assets/images/electriccar.jpg",
       caption: "How energy is consumed",
     },
     {
@@ -27,11 +27,11 @@ const Home = () => {
       caption: "How energy is transported",
     },
     {
-      url: "/assets/images/stored22.jpg",
+      url: "/assets/images/battery.png",
       caption: "How energy is stored",
     },
     {
-      url: "/assets/images/producedd22.jpg",
+      url: "/assets/images/h2owater.jpg",
       caption: "How energy is produced",
     },
   ];
@@ -51,27 +51,8 @@ const Home = () => {
       caption: "",
     },
     {
-      url: "/assets/images/produceddd22.jpg",
+      url: "/assets/images/solar.jpg",
       caption: "",
-    },
-  ];
-
-  const slideImages2 = [
-    {
-      url: "/assets/images/energyCon.jpeg",
-      caption: "How energy is consumed",
-    },
-    {
-      url: "/assets/images/onee.jpeg",
-      caption: "How energy is transported",
-    },
-    {
-      url: "/assets/images/stored22.jpg",
-      caption: "How energy is stored",
-    },
-    {
-      url: "/assets/images/producedd22.jpg",
-      caption: "How energy is produced",
     },
   ];
 
@@ -403,7 +384,7 @@ const Home = () => {
                 <div className="row">
                   <div className="col-12 px-0">
                     <Slide>
-                      {slideImages2.map((slideImage, index) => (
+                      {slideImages.map((slideImage, index) => (
                         <div key={index}>
                           <div
                             style={{
