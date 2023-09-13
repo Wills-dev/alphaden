@@ -23,8 +23,8 @@ const Home = () => {
       caption: "How energy is consumed",
     },
     {
-      url: "/assets/images/onee.jpeg",
-      caption: "How energy is transported",
+      url: "/assets/images/WhatsApp.jpeg",
+      caption: "How energy is distributed",
     },
     {
       url: "/assets/images/battery.png",

@@ -38,7 +38,7 @@ const NavBar = () => {
     <div className={`nav-bar-ctn ${isFixed ? "fixedPosition" : ""}`}>
       <div className={`nav-bar-up ${isFixed ? "hideNav" : ""}`}>
         <ul className="contact-activity-ctn">
-          <li>+(234) 0909-933-3222</li>
+          <li>+(234) 0700 257 4233</li>
           <li> info@alphadenholding.com</li>
           <li> Mon - Sat 8:00 - 17:30, Sunday - CLOSED</li>
         </ul>
